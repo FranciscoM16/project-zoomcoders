@@ -49,5 +49,4 @@ $ Year                    <dbl> 2019, 2019, 2019, 2019, 2019, 2019, 2019, 2019â€
 
 ## 3. Data analysis plan
 
-
-
+We will plot "Quality of Life Index" on the Y axis and "Infant Mortality Rate" on the X axis, not grouping the data, since we have only 1 entry for both variables for each country. To prepare the data for what we want to use we will select the Total Infant mortality rates for 2019 and unite them with the Quality of Life data, so that we can have a new modified data set that has a value for "Country" corresponding to "Infant Mortality Rate" and "Quality of Life Index". Then we will plot a Jitter or Point graph with this new data set. To confirm or deny the relation we will need to check to what extent the points seem to follow a certain pattern. The stronger a pattern seems to be, the more sure we can be that there is some sort of relation between our chosen variables.
