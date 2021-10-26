@@ -2,6 +2,8 @@
 title: "Project proposal"
 author: "zoomcoders"
 output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r load-packages, message = FALSE}
@@ -22,6 +24,26 @@ For the purposes of this project, our research question will be "To what extent 
 Through our research question, we aim to see whether there is a strong positive relationship between the two variables as one would expect, or if it plays a smaller role in other scenarios.
 
 ## 2. Data
+```{r}
+countries_quality_of_life_index <- read_csv("/cloud/project/data/countries_quality_of_life_index.18-10-2021.csv") 
+
+infant_mortality_rate <- read_csv("/cloud/project/data/InfantMortalityRate.csv")
+```
+
+> glimpse(countries_quality_of_life_index)
+Rows: 115
+Columns: 3
+$ Name               <chr> "Canada", "Japan", "Norway", "Ireland", "Hungary", …
+$ NativeName         <chr> "Canada", "日本", "Kongeriket Norge", "Eire", "Magy…
+$ QualityOfLifeIndex <dbl> 159.51190, 165.32691, 173.15817, 153.18219, 135.343…
+
+> glimpse(infant_mortality_rate)
+Rows: 7,625
+Columns: 4
+$ Country                 <chr> "Afghanistan", "Angola", "Albania", "Andorra",…
+$ `Infant Mortality Rate` <dbl> 43.050731, 44.851045, 7.659442, 2.555451, 5.71…
+$ Gender                  <chr> "Female", "Female", "Female", "Female", "Femal…
+$ Year                    <dbl> 2019, 2019, 2019, 2019, 2019, 2019, 2019, 2019…
 
 
 

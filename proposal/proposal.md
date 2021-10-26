@@ -35,4 +35,46 @@ if it plays a smaller role in other scenarios.
 
 ## 2. Data
 
+``` r
+countries_quality_of_life_index <- read_csv("/cloud/project/data/countries_quality_of_life_index.18-10-2021.csv") 
+```
+
+    ## Rows: 115 Columns: 3
+
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: ","
+    ## chr (2): Name, NativeName
+    ## dbl (1): QualityOfLifeIndex
+
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+``` r
+infant_mortality_rate <- read_csv("/cloud/project/data/InfantMortalityRate.csv")
+```
+
+    ## Rows: 7625 Columns: 4
+
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: ","
+    ## chr (2): Country, Gender
+    ## dbl (2): Infant Mortality Rate, Year
+
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+> glimpse(countries\_quality\_of\_life\_index) Rows: 115 Columns: 3 $
+> Name <chr> “Canada”, “Japan”, “Norway”, “Ireland”, “Hungary”, … $
+> NativeName <chr> “Canada”, “日本”, “Kongeriket Norge”, “Eire”, "Magy…
+> $ QualityOfLifeIndex <dbl> 159.51190, 165.32691, 173.15817, 153.18219,
+> 135.343…
+
+> glimpse(infant\_mortality\_rate) Rows: 7,625 Columns: 4 $ Country
+> <chr> “Afghanistan”, “Angola”, “Albania”, “Andorra”,… $
+> `Infant Mortality Rate` <dbl> 43.050731, 44.851045, 7.659442,
+> 2.555451, 5.71… $ Gender <chr> “Female”, “Female”, “Female”, “Female”,
+> "Femal… $ Year <dbl> 2019, 2019, 2019, 2019, 2019, 2019, 2019, 2019…
+
 ## 3. Data analysis plan
