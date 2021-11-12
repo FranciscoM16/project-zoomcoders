@@ -34,8 +34,8 @@ development leads to better quality of life”.
 
 Our datasets will be coming from: -
 <http://hdr.undp.org/en/indicators/137506> -
-<http://hdr.undp.org/en/indicators/137506> -
-<http://hdr.undp.org/en/indicators/137506> -
+<http://hdr.undp.org/en/indicators/181806> -
+<http://hdr.undp.org/en/indicators/39006> -
 <https://www.who.int/data/gho/data/indicators/indicator-details/GHO/gho-ghe-hale-healthy-life-expectancy-at-birth>
 -
 <https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)>
