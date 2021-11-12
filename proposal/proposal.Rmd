@@ -37,6 +37,7 @@ Our datasets will be coming from:
 countries_quality_of_life_index <- read_csv("/cloud/project/data/countries_quality_of_life_index.18-10-2021.csv") 
 
 infant_mortality_rate <- read_csv("/cloud/project/data/InfantMortalityRate.csv")
+
 ```
 
 > glimpse(countries_quality_of_life_index)
