@@ -38,6 +38,9 @@ countries_quality_of_life_index <- read_csv("/cloud/project/data/countries_quali
 
 infant_mortality_rate <- read_csv("/cloud/project/data/InfantMortalityRate.csv")
 
+human_development_index <- read_csv("/cloud/project/data/HumanDevelopmentIndex.csv")
+
+healthy_life_expectancy_at_birth <- read_csv("/cloud/project/data/Healthy_life_expectancy_at_birth.csv")
 ```
 
 > glimpse(countries_quality_of_life_index)

@@ -77,6 +77,45 @@ infant_mortality_rate <- read_csv("/cloud/project/data/InfantMortalityRate.csv")
     ## ℹ Use `spec()` to retrieve the full column specification for this data.
     ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
+``` r
+human_development_index <- read_csv("/cloud/project/data/HumanDevelopmentIndex.csv")
+```
+
+    ## New names:
+    ## * `` -> ...2
+    ## * `` -> ...3
+    ## * `` -> ...4
+    ## * `` -> ...5
+    ## * `` -> ...6
+    ## * ...
+
+    ## Rows: 211 Columns: 61
+
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: ","
+    ## chr (32): Human Development Index (HDI), ...2, ...3, ...5, ...7, ...9, ...11...
+    ## lgl (29): ...4, ...6, ...8, ...10, ...12, ...14, ...16, ...18, ...20, ...22,...
+
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+``` r
+healthy_life_expectancy_at_birth <- read_csv("/cloud/project/data/Healthy_life_expectancy_at_birth.csv")
+```
+
+    ## Rows: 4392 Columns: 34
+
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: ","
+    ## chr (14): IndicatorCode, Indicator, ValueType, ParentLocationCode, ParentLoc...
+    ## dbl  (3): Period, FactValueNumeric, Value
+    ## lgl (17): IsLatestYear, Dim2 type, Dim2, Dim2ValueCode, Dim3 type, Dim3, Dim...
+
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
 > glimpse(countries\_quality\_of\_life\_index) Rows: 115 Columns: 3 $
 > Name <chr> “Canada”, “Japan”, “Norway”, “Ireland”, “Hungary”, … $
 > NativeName <chr> “Canada”, “日本”, “Kongeriket Norge”, “Eire”, "Magy…
