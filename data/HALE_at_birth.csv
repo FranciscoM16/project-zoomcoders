@@ -1,0 +1,550 @@
+IndicatorCode,Indicator,ValueType,ParentLocationCode,ParentLocation,Location type,SpatialDimValueCode,Location,Period type,Period,IsLatestYear,Dim1 type,Dim1,Dim1ValueCode,Dim2 type,Dim2,Dim2ValueCode,Dim3 type,Dim3,Dim3ValueCode,DataSourceDimValueCode,DataSource,FactValueNumericPrefix,FactValueNumeric,FactValueUoM,FactValueNumericLowPrefix,FactValueNumericLow,FactValueNumericHighPrefix,FactValueNumericHigh,Value,FactValueTranslationID,FactComments,Language,DateModified
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,LSO,Lesotho,Year,2019,true,Sex,Male,MLE,,,,,,,,,,42.31,,,,,,42,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,CAF,Central African Republic,Year,2019,true,Sex,Male,MLE,,,,,,,,,,44.48,,,,,,44,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,LSO,Lesotho,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,44.24,,,,,,44,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,CAF,Central African Republic,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,46.37,,,,,,46,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,LSO,Lesotho,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,46.42,,,,,,46,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SWZ,Eswatini,Year,2019,true,Sex,Male,MLE,,,,,,,,,,47.07,,,,,,47,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,CAF,Central African Republic,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,48.44,,,,,,48,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MOZ,Mozambique,Year,2019,true,Sex,Male,MLE,,,,,,,,,,47.9,,,,,,48,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,SOM,Somalia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,48.32,,,,,,48,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SWZ,Eswatini,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,50.06,,,,,,50,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,KIR,Kiribati,Year,2019,true,Sex,Male,MLE,,,,,,,,,,50.45,,,,,,50,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MOZ,Mozambique,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,50.36,,,,,,50,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,SOM,Somalia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,49.72,,,,,,50,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,TCD,Chad,Year,2019,true,Sex,Male,MLE,,,,,,,,,,51.28,,,,,,51,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2019,true,Sex,Male,MLE,,,,,,,,,,51.08,,,,,,51,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,SOM,Somalia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,51.31,,,,,,51,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ZWE,Zimbabwe,Year,2019,true,Sex,Male,MLE,,,,,,,,,,51.21,,,,,,51,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,BWA,Botswana,Year,2019,true,Sex,Male,MLE,,,,,,,,,,51.93,,,,,,52,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,TCD,Chad,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,52.02,,,,,,52,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ZMB,Zambia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,52.5,,,,,,52,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,AFG,Afghanistan,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,53.15,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,BFA,Burkina Faso,Year,2019,true,Sex,Male,MLE,,,,,,,,,,53.39,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,CMR,Cameroon,Year,2019,true,Sex,Male,MLE,,,,,,,,,,53.47,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,TCD,Chad,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,52.76,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2019,true,Sex,Male,MLE,,,,,,,,,,53.45,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2019,true,Sex,Male,MLE,,,,,,,,,,52.81,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2019,true,Sex,Male,MLE,,,,,,,,,,53.43,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GIN,Guinea,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,53.32,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GIN,Guinea,Year,2019,true,Sex,Male,MLE,,,,,,,,,,52.87,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,52.62,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,KIR,Kiribati,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,52.62,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MOZ,Mozambique,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,52.76,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,NAM,Namibia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,53.4,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SLE,Sierra Leone,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,52.92,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SLE,Sierra Leone,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,53.29,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SLE,Sierra Leone,Year,2019,true,Sex,Male,MLE,,,,,,,,,,52.52,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SSD,South Sudan,Year,2019,true,Sex,Male,MLE,,,,,,,,,,52.88,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ZWE,Zimbabwe,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,53.07,,,,,,53,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,AFG,Afghanistan,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,53.95,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,AGO,Angola,Year,2019,true,Sex,Male,MLE,,,,,,,,,,53.55,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,BEN,Benin,Year,2019,true,Sex,Male,MLE,,,,,,,,,,54.47,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,BWA,Botswana,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,53.89,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,BDI,Burundi,Year,2019,true,Sex,Male,MLE,,,,,,,,,,53.98,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,54.09,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,53.86,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,54.08,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ERI,Eritrea,Year,2019,true,Sex,Male,MLE,,,,,,,,,,53.91,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SWZ,Eswatini,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,53.85,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GIN,Guinea,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,53.7,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,54.12,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MLI,Mali,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,54.46,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,FSM,Micronesia (Federated States of),Year,2019,true,Sex,Male,MLE,,,,,,,,,,54.4,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,NGA,Nigeria,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,54.39,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,NGA,Nigeria,Year,2019,true,Sex,Male,MLE,,,,,,,,,,53.91,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SSD,South Sudan,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,53.66,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SSD,South Sudan,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,54.47,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ZMB,Zambia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,54.4,,,,,,54,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,AFG,Afghanistan,Year,2019,true,Sex,Male,MLE,,,,,,,,,,54.73,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,AGO,Angola,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,54.84,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,BFA,Burkina Faso,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,54.86,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,CMR,Cameroon,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,54.52,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,54.81,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,55.44,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,GUY,Guyana,Year,2019,true,Sex,Male,MLE,,,,,,,,,,55.05,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,KIR,Kiribati,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,54.85,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,LBR,Liberia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,54.91,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,LBR,Liberia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,54.98,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,LBR,Liberia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,54.86,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MWI,Malawi,Year,2019,true,Sex,Male,MLE,,,,,,,,,,55.09,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MLI,Mali,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,54.63,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MLI,Mali,Year,2019,true,Sex,Male,MLE,,,,,,,,,,54.83,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,NER,Niger,Year,2019,true,Sex,Male,MLE,,,,,,,,,,55.28,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,NGA,Nigeria,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,54.89,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ZAF,South Africa,Year,2019,true,Sex,Male,MLE,,,,,,,,,,54.59,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,TGO,Togo,Year,2019,true,Sex,Male,MLE,,,,,,,,,,54.7,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ZWE,Zimbabwe,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,54.8,,,,,,55,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,AGO,Angola,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,56.21,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,BEN,Benin,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,55.52,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,BWA,Botswana,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,55.81,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,BFA,Burkina Faso,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,56.26,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,BDI,Burundi,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,55.58,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,CMR,Cameroon,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,55.6,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,COG,Congo,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,56.25,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,COG,Congo,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,56.11,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,COG,Congo,Year,2019,true,Sex,Male,MLE,,,,,,,,,,56.35,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,56.46,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ERI,Eritrea,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,55.73,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GAB,Gabon,Year,2019,true,Sex,Male,MLE,,,,,,,,,,55.99,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GMB,Gambia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,56.42,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,HTI,Haiti,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,55.8,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,HTI,Haiti,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,55.76,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,HTI,Haiti,Year,2019,true,Sex,Male,MLE,,,,,,,,,,55.87,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,KEN,Kenya,Year,2019,true,Sex,Male,MLE,,,,,,,,,,56.41,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,FSM,Micronesia (Federated States of),Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,55.98,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,NAM,Namibia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,56.06,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,NER,Niger,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,55.52,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,NER,Niger,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,55.81,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,PNG,Papua New Guinea,Year,2019,true,Sex,Male,MLE,,,,,,,,,,56.16,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ZAF,South Africa,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,56.15,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,TGO,Togo,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,56.19,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,UGA,Uganda,Year,2019,true,Sex,Male,MLE,,,,,,,,,,56.05,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2019,true,Sex,Male,MLE,,,,,,,,,,56.39,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ZMB,Zambia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,56.31,,,,,,56,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,BEN,Benin,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,56.57,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,BDI,Burundi,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,57.2,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,DJI,Djibouti,Year,2019,true,Sex,Male,MLE,,,,,,,,,,57.21,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GMB,Gambia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,57.04,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GHA,Ghana,Year,2019,true,Sex,Male,MLE,,,,,,,,,,56.53,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,GUY,Guyana,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,57.24,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MDG,Madagascar,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,57.31,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MDG,Madagascar,Year,2019,true,Sex,Male,MLE,,,,,,,,,,56.88,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MWI,Malawi,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,57.06,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,MNG,Mongolia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,57.06,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,PAK,Pakistan,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,56.87,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,PAK,Pakistan,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,56.83,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,PAK,Pakistan,Year,2019,true,Sex,Male,MLE,,,,,,,,,,56.91,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,PNG,Papua New Guinea,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,57.08,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,SLB,Solomon Islands,Year,2019,true,Sex,Male,MLE,,,,,,,,,,56.51,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,YEM,Yemen,Year,2019,true,Sex,Male,MLE,,,,,,,,,,56.91,,,,,,57,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,COM,Comoros,Year,2019,true,Sex,Male,MLE,,,,,,,,,,58.27,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,DJI,Djibouti,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,58,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ERI,Eritrea,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,57.7,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GAB,Gabon,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,57.56,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GMB,Gambia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,57.74,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GHA,Ghana,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,57.98,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,KEN,Kenya,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,57.68,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MDG,Madagascar,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,57.74,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,FSM,Micronesia (Federated States of),Year,2019,true,Sex,Female,FMLE,,,,,,,,,,57.76,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,PNG,Papua New Guinea,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,58.06,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,SLB,Solomon Islands,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,57.76,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ZAF,South Africa,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,57.69,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,TGO,Togo,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,57.8,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,UGA,Uganda,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,58.21,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,58.46,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2019,true,Sex,Male,MLE,,,,,,,,,,57.62,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,57.83,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,YEM,Yemen,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,57.53,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,YEM,Yemen,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,58.17,,,,,,58,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,COM,Comoros,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,58.95,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,DJI,Djibouti,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,58.9,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ETH,Ethiopia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,58.98,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,FJI,Fiji,Year,2019,true,Sex,Male,MLE,,,,,,,,,,58.54,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GAB,Gabon,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,59.33,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,KEN,Kenya,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,58.93,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2019,true,Sex,Male,MLE,,,,,,,,,,59.2,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MWI,Malawi,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,59.02,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MRT,Mauritania,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,59.44,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,MMR,Myanmar,Year,2019,true,Sex,Male,MLE,,,,,,,,,,58.83,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,NAM,Namibia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,58.62,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,RWA,Rwanda,Year,2019,true,Sex,Male,MLE,,,,,,,,,,58.96,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SEN,Senegal,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,59.37,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SEN,Senegal,Year,2019,true,Sex,Male,MLE,,,,,,,,,,58.79,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,SLB,Solomon Islands,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,59.14,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,59.26,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,59.44,,,,,,59,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,KHM,Cambodia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,59.81,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,COM,Comoros,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,59.62,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ETH,Ethiopia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,59.89,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,FJI,Fiji,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,59.59,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,GHA,Ghana,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,59.58,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,GTM,Guatemala,Year,2019,true,Sex,Male,MLE,,,,,,,,,,60.46,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,GUY,Guyana,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,59.74,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,IND,India,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,60.33,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,IND,India,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,60.39,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,IND,India,Year,2019,true,Sex,Male,MLE,,,,,,,,,,60.28,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MRT,Mauritania,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,59.76,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MRT,Mauritania,Year,2019,true,Sex,Male,MLE,,,,,,,,,,60.16,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,MNG,Mongolia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,60.29,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,PHL,Philippines,Year,2019,true,Sex,Male,MLE,,,,,,,,,,60.14,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,RWA,Rwanda,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,60.21,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SEN,Senegal,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,59.9,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,59.91,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,60.28,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2019,true,Sex,Male,MLE,,,,,,,,,,59.56,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2019,true,Sex,Male,MLE,,,,,,,,,,59.8,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,TKM,Turkmenistan,Year,2019,true,Sex,Male,MLE,,,,,,,,,,59.93,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,UGA,Uganda,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,60.35,,,,,,60,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,ETH,Ethiopia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,60.81,,,,,,61,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,FJI,Fiji,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,60.74,,,,,,61,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,GEO,Georgia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,61.44,,,,,,61,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,60.51,,,,,,61,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,MMR,Myanmar,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,60.85,,,,,,61,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,NPL,Nepal,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,61.34,,,,,,61,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,NPL,Nepal,Year,2019,true,Sex,Male,MLE,,,,,,,,,,60.63,,,,,,61,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,RUS,Russian Federation,Year,2019,true,Sex,Male,MLE,,,,,,,,,,60.7,,,,,,61,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,RWA,Rwanda,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,61.41,,,,,,61,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2019,true,Sex,Male,MLE,,,,,,,,,,60.94,,,,,,61,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,SUR,Suriname,Year,2019,true,Sex,Male,MLE,,,,,,,,,,60.72,,,,,,61,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,TJK,Tajikistan,Year,2019,true,Sex,Male,MLE,,,,,,,,,,60.91,,,,,,61,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,60.89,,,,,,61,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,UKR,Ukraine,Year,2019,true,Sex,Male,MLE,,,,,,,,,,60.6,,,,,,61,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,AZE,Azerbaijan,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.08,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BHS,Bahamas,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.26,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,BLR,Belarus,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.31,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,CPV,Cabo Verde,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.21,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,KHM,Cambodia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,61.51,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,DOM,Dominican Republic,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.07,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,EGY,Egypt,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.29,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,SLV,El Salvador,Year,2019,true,Sex,Male,MLE,,,,,,,,,,61.65,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,GTM,Guatemala,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,62.3,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,61.92,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,IRQ,Iraq,Year,2019,true,Sex,Male,MLE,,,,,,,,,,61.63,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,KAZ,Kazakhstan,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.37,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,61.89,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MUS,Mauritius,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.01,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,NPL,Nepal,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,62.08,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,PHL,Philippines,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,62,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,MDA,Republic of Moldova,Year,2019,true,Sex,Male,MLE,,,,,,,,,,61.88,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,WSM,Samoa,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,62.13,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,WSM,Samoa,Year,2019,true,Sex,Male,MLE,,,,,,,,,,61.79,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,61.6,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,62.21,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SYC,Seychelles,Year,2019,true,Sex,Male,MLE,,,,,,,,,,61.86,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,SUR,Suriname,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,62.39,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,SYR,Syrian Arab Republic,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.48,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,TJK,Tajikistan,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,62.01,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,62.03,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,TKM,Turkmenistan,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,62.11,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2019,true,Sex,Male,MLE,,,,,,,,,,61.89,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,VNM,Viet Nam,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.43,,,,,,62,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BLZ,Belize,Year,2019,true,Sex,Male,MLE,,,,,,,,,,63.48,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,63.36,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,63.48,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2019,true,Sex,Male,MLE,,,,,,,,,,63.24,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,63.27,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2019,true,Sex,Female,FMLE,,,,,,,,,,63.34,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2019,true,Sex,Male,MLE,,,,,,,,,,63.21,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BRA,Brazil,Year,2019,true,Sex,Male,MLE,,,,,,,,,,63.44,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,KHM,Cambodia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,63.03,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2019,true,Sex,Male,MLE,,,,,,,,,,63.3,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,EGY,Egypt,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,62.97,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,GRD,Grenada,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.6,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,HND,Honduras,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,62.98,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,HND,Honduras,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,63.3,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,HND,Honduras,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.66,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,62.83,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,IRQ,Iraq,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,62.66,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,LVA,Latvia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.91,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,LTU,Lithuania,Year,2019,true,Sex,Male,MLE,,,,,,,,,,63.45,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,MMR,Myanmar,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,62.77,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,LCA,Saint Lucia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,63.01,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,VCT,Saint Vincent and the Grenadines,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.93,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,WSM,Samoa,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,62.51,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,SYR,Syrian Arab Republic,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,62.87,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,SYR,Syrian Arab Republic,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,63.32,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,TJK,Tajikistan,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,63.19,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,TON,Tonga,Year,2019,true,Sex,Male,MLE,,,,,,,,,,62.68,,,,,,63,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,AZE,Azerbaijan,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,63.65,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BHS,Bahamas,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.35,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.3,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,64.38,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2019,true,Sex,Male,MLE,,,,,,,,,,64.25,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,BGR,Bulgaria,Year,2019,true,Sex,Male,MLE,,,,,,,,,,63.91,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,DOM,Dominican Republic,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,63.98,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,EGY,Egypt,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,63.68,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,GRD,Grenada,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,63.92,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,GTM,Guatemala,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,64.12,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,63.79,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,IRQ,Iraq,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,63.7,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2019,true,Sex,Male,MLE,,,,,,,,,,63.61,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MUS,Mauritius,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,63.94,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,MEX,Mexico,Year,2019,true,Sex,Male,MLE,,,,,,,,,,64.28,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,MNG,Mongolia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,63.8,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,MAR,Morocco,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,63.69,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,MAR,Morocco,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,63.7,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,MAR,Morocco,Year,2019,true,Sex,Male,MLE,,,,,,,,,,63.72,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,NIC,Nicaragua,Year,2019,true,Sex,Male,MLE,,,,,,,,,,63.66,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,PRY,Paraguay,Year,2019,true,Sex,Male,MLE,,,,,,,,,,64.45,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,PHL,Philippines,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,63.94,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ROU,Romania,Year,2019,true,Sex,Male,MLE,,,,,,,,,,64.3,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,RUS,Russian Federation,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.21,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,VCT,Saint Vincent and the Grenadines,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,63.97,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.02,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,64.36,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,63.78,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SYC,Seychelles,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.01,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,SUR,Suriname,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,64.16,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,TON,Tonga,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.01,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,TTO,Trinidad and Tobago,Year,2019,true,Sex,Male,MLE,,,,,,,,,,63.98,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,TKM,Turkmenistan,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,64.27,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,UKR,Ukraine,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.3,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,UZB,Uzbekistan,Year,2019,true,Sex,Male,MLE,,,,,,,,,,63.54,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.44,,,,,,64,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,ARG,Argentina,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.4,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ARM,Armenia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,64.88,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,AZE,Azerbaijan,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,65.22,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,BHR,Bahrain,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,65.49,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BLZ,Belize,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.29,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BRA,Brazil,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.4,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,BRN,Brunei Darussalam,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.2,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,CPV,Cabo Verde,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.8,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.01,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,SLV,El Salvador,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.87,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,GEO,Georgia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.68,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,GRD,Grenada,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,65.36,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,HUN,Hungary,Year,2019,true,Sex,Male,MLE,,,,,,,,,,64.96,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,KAZ,Kazakhstan,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.99,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,LBN,Lebanon,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.06,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,LBY,Libya,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.22,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,LBY,Libya,Year,2019,true,Sex,Male,MLE,,,,,,,,,,64.91,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,MYS,Malaysia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,64.5,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,MNE,Montenegro,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.24,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,NIC,Nicaragua,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.46,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,OMN,Oman,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.68,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,OMN,Oman,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,64.51,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,OMN,Oman,Year,2019,true,Sex,Male,MLE,,,,,,,,,,64.51,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,QAT,Qatar,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,65.06,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,MDA,Republic of Moldova,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.54,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,MKD,The former Yugoslav Republic of Macedonia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.05,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,LCA,Saint Lucia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.7,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,VCT,Saint Vincent and the Grenadines,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,65.14,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,SRB,Serbia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.36,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.05,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,USA,United States of America,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.21,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,URY,Uruguay,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.4,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,UZB,Uzbekistan,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,64.68,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,VNM,Viet Nam,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.3,,,,,,65,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,DZA,Algeria,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.39,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,DZA,Algeria,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,66.08,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,ATG,Antigua and Barbuda,Year,2019,true,Sex,Male,MLE,,,,,,,,,,66.25,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BHS,Bahamas,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,66.47,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,BHR,Bahrain,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.88,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,BHR,Bahrain,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.98,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BRB,Barbados,Year,2019,true,Sex,Male,MLE,,,,,,,,,,66.25,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,BLR,Belarus,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.97,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,BIH,Bosnia and Herzegovina,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.66,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,BRN,Brunei Darussalam,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.65,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,BRN,Brunei Darussalam,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,66.14,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,BGR,Bulgaria,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.28,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,DOM,Dominican Republic,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,66.05,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,EST,Estonia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,66.39,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.26,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.97,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,JAM,Jamaica,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.93,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.78,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,LVA,Latvia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.25,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,LBN,Lebanon,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.96,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,LBY,Libya,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,65.5,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,MYS,Malaysia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.66,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,MUS,Mauritius,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,65.95,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,MEX,Mexico,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.76,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,PRY,Paraguay,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.8,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,POL,Poland,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.94,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,MKD,The former Yugoslav Republic of Macedonia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.14,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,SYC,Seychelles,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,66.43,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,SVK,Slovakia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,66.16,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,THA,Thailand,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.93,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,TON,Tonga,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,65.51,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,TTO,Trinidad and Tobago,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.23,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,TUN,Tunisia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,66.09,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,ARE,United Arab Emirates,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,65.99,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,ARE,United Arab Emirates,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,66.19,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,ARE,United Arab Emirates,Year,2019,true,Sex,Male,MLE,,,,,,,,,,65.84,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,USA,United States of America,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.12,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,UZB,Uzbekistan,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,65.8,,,,,,66,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,DZA,Algeria,Year,2019,true,Sex,Male,MLE,,,,,,,,,,66.72,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,ATG,Antigua and Barbuda,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.97,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,ARG,Argentina,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,67.13,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ARM,Armenia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,67.12,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BRB,Barbados,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.99,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BLZ,Belize,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.31,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,BIH,Bosnia and Herzegovina,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,67.19,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BRA,Brazil,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.37,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AFR,Africa,Country,CPV,Cabo Verde,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.22,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,CHN,China,Year,2019,true,Sex,Male,MLE,,,,,,,,,,67.21,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,COL,Colombia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,67.42,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,HRV,Croatia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,66.69,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,CUB,Cuba,Year,2019,true,Sex,Male,MLE,,,,,,,,,,66.55,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,CZE,Czechia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,66.97,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,66.58,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,HUN,Hungary,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,67.19,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2019,true,Sex,Female,FMLE,,,,,,,,,,66.52,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,JAM,Jamaica,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.55,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,JAM,Jamaica,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.25,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,JOR,Jordan,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.17,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,KAZ,Kazakhstan,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.39,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,LBN,Lebanon,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.05,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,LTU,Lithuania,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.69,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,MYS,Malaysia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,66.94,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,MEX,Mexico,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.23,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,MNE,Montenegro,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.97,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,NIC,Nicaragua,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.21,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,PAN,Panama,Year,2019,true,Sex,Male,MLE,,,,,,,,,,67.39,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,PRY,Paraguay,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.32,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,QAT,Qatar,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,67.06,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,MDA,Republic of Moldova,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.09,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,MKD,The former Yugoslav Republic of Macedonia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.27,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ROU,Romania,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.85,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,LCA,Saint Lucia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,66.63,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,SRB,Serbia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.88,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,67.05,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,TUN,Tunisia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,66.89,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,USA,United States of America,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.02,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.1,,,,,,67,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ALB,Albania,Year,2019,true,Sex,Male,MLE,,,,,,,,,,68,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,ATG,Antigua and Barbuda,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.69,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,BRB,Barbados,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.68,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,CUB,Cuba,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,67.84,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,ECU,Ecuador,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,68.48,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,ECU,Ecuador,Year,2019,true,Sex,Male,MLE,,,,,,,,,,67.71,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,SLV,El Salvador,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.82,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,GEO,Georgia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.91,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,JOR,Jordan,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,67.6,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,JOR,Jordan,Year,2019,true,Sex,Male,MLE,,,,,,,,,,68.05,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.73,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,QAT,Qatar,Year,2019,true,Sex,Male,MLE,,,,,,,,,,68.11,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,RUS,Russian Federation,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.53,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,SRB,Serbia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,68.39,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,THA,Thailand,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,68.26,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,TUN,Tunisia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.69,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,TUR,Turkey,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,68.41,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,TUR,Turkey,Year,2019,true,Sex,Male,MLE,,,,,,,,,,67.81,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,UKR,Ukraine,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,67.84,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,URY,Uruguay,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,67.51,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,VNM,Viet Nam,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,68.28,,,,,,68,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ALB,Albania,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,69.08,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,ARG,Argentina,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,68.77,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ARM,Armenia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,69.1,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,BLR,Belarus,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,69.37,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,BIH,Bosnia and Herzegovina,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,68.68,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,BGR,Bulgaria,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,68.71,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,CHL,Chile,Year,2019,true,Sex,Male,MLE,,,,,,,,,,68.96,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,CHN,China,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,68.53,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,COL,Colombia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,68.96,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,CRI,Costa Rica,Year,2019,true,Sex,Male,MLE,,,,,,,,,,68.65,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,HRV,Croatia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,68.62,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,CUB,Cuba,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,69.16,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,CZE,Czechia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,68.79,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,ECU,Ecuador,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,69.26,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,EST,Estonia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,69.24,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,HUN,Hungary,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,69.26,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,LVA,Latvia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,69.34,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,MNE,Montenegro,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,68.74,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,PAN,Panama,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,68.68,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,PER,Peru,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,69.5,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,PER,Peru,Year,2019,true,Sex,Male,MLE,,,,,,,,,,69.21,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,POL,Poland,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,68.66,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ROU,Romania,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,69.44,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,SVK,Slovakia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,68.54,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,SVN,Slovenia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,69.01,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,68.97,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,TTO,Trinidad and Tobago,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,68.61,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,TUR,Turkey,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,68.96,,,,,,69,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ALB,Albania,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,70.25,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,AUS,Australia,Year,2019,true,Sex,Male,MLE,,,,,,,,,,70.15,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,AUT,Austria,Year,2019,true,Sex,Male,MLE,,,,,,,,,,69.93,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,BEL,Belgium,Year,2019,true,Sex,Male,MLE,,,,,,,,,,69.76,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,CHL,Chile,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,70.05,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,CHN,China,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,70.02,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,COL,Colombia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,70.47,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,CRI,Costa Rica,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,69.97,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,HRV,Croatia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,70.46,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,FIN,Finland,Year,2019,true,Sex,Male,MLE,,,,,,,,,,69.93,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,DEU,Germany,Year,2019,true,Sex,Male,MLE,,,,,,,,,,69.66,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,GRC,Greece,Year,2019,true,Sex,Male,MLE,,,,,,,,,,69.86,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,KWT,Kuwait,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,70.09,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,KWT,Kuwait,Year,2019,true,Sex,Male,MLE,,,,,,,,,,69.51,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,LTU,Lithuania,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,69.68,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,MDV,Maldives,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,69.95,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,MDV,Maldives,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,70.03,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,MDV,Maldives,Year,2019,true,Sex,Male,MLE,,,,,,,,,,69.73,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,NZL,New Zealand,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,70.24,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,NZL,New Zealand,Year,2019,true,Sex,Male,MLE,,,,,,,,,,69.64,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,PAN,Panama,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,70.04,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,PER,Peru,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,69.78,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,PRT,Portugal,Year,2019,true,Sex,Male,MLE,,,,,,,,,,69.57,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,GBR,United Kingdom of Great Britain and Northern Ireland,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,70.13,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,GBR,United Kingdom of Great Britain and Northern Ireland,Year,2019,true,Sex,Male,MLE,,,,,,,,,,69.64,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,URY,Uruguay,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,69.51,,,,,,70,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,AUS,Australia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,70.93,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,AUT,Austria,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,70.94,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,BEL,Belgium,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,70.56,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,BEL,Belgium,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.31,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,CAN,Canada,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,71.25,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,CAN,Canada,Year,2019,true,Sex,Male,MLE,,,,,,,,,,70.51,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,CHL,Chile,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.05,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,CRI,Costa Rica,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.33,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,CZE,Czechia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,70.57,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,DNK,Denmark,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,71.04,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,DNK,Denmark,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.38,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,DNK,Denmark,Year,2019,true,Sex,Male,MLE,,,,,,,,,,70.67,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,FIN,Finland,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,71,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,FRA,France,Year,2019,true,Sex,Male,MLE,,,,,,,,,,71.06,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,DEU,Germany,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,70.89,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,GRC,Greece,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,70.87,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,IRL,Ireland,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,71.07,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,IRL,Ireland,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.43,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,IRL,Ireland,Year,2019,true,Sex,Male,MLE,,,,,,,,,,70.72,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ITA,Italy,Year,2019,true,Sex,Male,MLE,,,,,,,,,,71.16,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EMR,Eastern Mediterranean,Country,KWT,Kuwait,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.09,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,LUX,Luxembourg,Year,2019,true,Sex,Male,MLE,,,,,,,,,,71.12,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,MLT,Malta,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,71.46,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,MLT,Malta,Year,2019,true,Sex,Male,MLE,,,,,,,,,,70.91,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,NLD,Netherlands,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,71.44,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,NLD,Netherlands,Year,2019,true,Sex,Male,MLE,,,,,,,,,,71.35,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,NZL,New Zealand,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,70.82,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,NOR,Norway,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,71.36,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,NOR,Norway,Year,2019,true,Sex,Male,MLE,,,,,,,,,,71.05,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,POL,Poland,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.33,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,PRT,Portugal,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,70.96,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2019,true,Sex,Male,MLE,,,,,,,,,,71.32,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,SVK,Slovakia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,70.76,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,SVN,Slovenia,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,70.74,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ESP,Spain,Year,2019,true,Sex,Male,MLE,,,,,,,,,,71.26,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,SEAR,South-East Asia,Country,THA,Thailand,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,70.6,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,GBR,United Kingdom of Great Britain and Northern Ireland,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,70.62,,,,,,71,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,AUS,Australia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.73,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,AUT,Austria,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.9,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,AMR,Americas,Country,CAN,Canada,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.98,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,CYP,Cyprus,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,72.41,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,CYP,Cyprus,Year,2019,true,Sex,Male,MLE,,,,,,,,,,71.82,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,EST,Estonia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.72,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,FIN,Finland,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,72.03,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,FRA,France,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,72.08,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,DEU,Germany,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,72.11,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,GRC,Greece,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.87,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ISL,Iceland,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,71.98,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ISL,Iceland,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,72.27,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ISL,Iceland,Year,2019,true,Sex,Male,MLE,,,,,,,,,,71.7,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ISR,Israel,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,72.38,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ISR,Israel,Year,2019,true,Sex,Male,MLE,,,,,,,,,,71.97,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ITA,Italy,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,71.92,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,LUX,Luxembourg,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,71.55,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,LUX,Luxembourg,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.96,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,MLT,Malta,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.94,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,NLD,Netherlands,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.5,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,NOR,Norway,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,71.64,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,PRT,Portugal,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,72.25,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,SGP,Singapore,Year,2019,true,Sex,Male,MLE,,,,,,,,,,72.39,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,SVN,Slovenia,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,72.48,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ESP,Spain,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,72.09,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,SWE,Sweden,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,71.91,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,SWE,Sweden,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,72.11,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,SWE,Sweden,Year,2019,true,Sex,Male,MLE,,,,,,,,,,71.69,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,CHE,Switzerland,Year,2019,true,Sex,Male,MLE,,,,,,,,,,72.19,,,,,,72,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,CYP,Cyprus,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,72.97,,,,,,73,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,FRA,France,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,73.06,,,,,,73,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ISR,Israel,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,72.74,,,,,,73,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ITA,Italy,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,72.59,,,,,,73,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,JPN,Japan,Year,2019,true,Sex,Male,MLE,,,,,,,,,,72.64,,,,,,73,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,73.06,,,,,,73,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,ESP,Spain,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,72.85,,,,,,73,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,CHE,Switzerland,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,72.52,,,,,,73,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,EUR,Europe,Country,CHE,Switzerland,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,72.82,,,,,,73,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,JPN,Japan,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,74.09,,,,,,74,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,SGP,Singapore,Year,2019,true,Sex,Both sexes,BTSX,,,,,,,,,,73.55,,,,,,74,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,JPN,Japan,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,75.48,,,,,,75,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,74.66,,,,,,75,,,EN,2020-12-04T00:00:00.000Z
+WHOSIS_000002,Healthy life expectancy (HALE) at birth (years),text,WPR,Western Pacific,Country,SGP,Singapore,Year,2019,true,Sex,Female,FMLE,,,,,,,,,,74.72,,,,,,75,,,EN,2020-12-04T00:00:00.000Z
