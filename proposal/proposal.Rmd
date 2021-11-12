@@ -28,13 +28,9 @@ Through our research question, we aim to see whether there is a strong positive 
 
 infant_mortality_rate <- read_csv("/cloud/project/data/InfantMortalityRate.csv")
 
-hale_at_birth <- read_csv("/cloud/project/data/Healthy_life_expectancy_at_birth.csv")
+human_development_index <- read_csv("/cloud/project/data/HumanDevelopmentIndex.csv")
 
-hdi <- read_csv("/cloud/project/data/HumanDevelopmentIndex.csv")
-
-glimpse(hdi)
-
-glimpse(hale_at_birth)
+healthy_life_expectancy_at_birth <- read_csv("/cloud/project/data/Healthy_life_expectancy_at_birth.csv")
 ```
 
 
