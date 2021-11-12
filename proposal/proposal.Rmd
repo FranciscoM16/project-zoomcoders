@@ -41,6 +41,15 @@ infant_mortality_rate <- read_csv("/cloud/project/data/InfantMortalityRate.csv")
 human_development_index <- read_csv("/cloud/project/data/HumanDevelopmentIndex.csv")
 
 healthy_life_expectancy_at_birth <- read_csv("/cloud/project/data/Healthy_life_expectancy_at_birth.csv")
+
+maternal_mortality_ratio <- 
+  read_csv("/cloud/project/data/maternal_mortality_ratio_per_100000_live_births.csv")
+
+births_attended_by_skilled_health_personnel <- read_csv("/cloud/project/data/births_attended_by_skilled_health_personnel.csv")
+
+suicide_rates_crude_10_year_age_groups <- read_csv("/cloud/project/data/suicide_rates_crude_10_year_age_groups.csv")
+
+suicide_rates_age_standardized <- read_csv("/cloud/project/data/suicide_rates_age_standardized.csv")
 ```
 
 > glimpse(countries_quality_of_life_index)

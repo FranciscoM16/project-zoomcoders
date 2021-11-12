@@ -116,6 +116,71 @@ healthy_life_expectancy_at_birth <- read_csv("/cloud/project/data/Healthy_life_e
     ## ℹ Use `spec()` to retrieve the full column specification for this data.
     ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
+``` r
+maternal_mortality_ratio <- 
+  read_csv("/cloud/project/data/maternal_mortality_ratio_per_100000_live_births.csv")
+```
+
+    ## Rows: 6588 Columns: 34
+
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: ","
+    ## chr (12): IndicatorCode, Indicator, ValueType, ParentLocationCode, ParentLoc...
+    ## dbl  (4): Period, FactValueNumeric, FactValueNumericLow, FactValueNumericHigh
+    ## lgl (18): IsLatestYear, Dim1 type, Dim1, Dim1ValueCode, Dim2 type, Dim2, Dim...
+
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+``` r
+births_attended_by_skilled_health_personnel <- read_csv("/cloud/project/data/births_attended_by_skilled_health_personnel.csv")
+```
+
+    ## Rows: 1936 Columns: 34
+
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: ","
+    ## chr (13): IndicatorCode, Indicator, ValueType, ParentLocationCode, ParentLoc...
+    ## dbl  (2): FactValueNumeric, Value
+    ## lgl (19): IsLatestYear, Dim1 type, Dim1, Dim1ValueCode, Dim2 type, Dim2, Dim...
+
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+``` r
+suicide_rates_crude_10_year_age_groups <- read_csv("/cloud/project/data/suicide_rates_crude_10_year_age_groups.csv")
+```
+
+    ## Rows: 4392 Columns: 34
+
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: ","
+    ## chr (17): IndicatorCode, Indicator, ValueType, ParentLocationCode, ParentLoc...
+    ## dbl  (3): Period, FactValueNumeric, Value
+    ## lgl (14): IsLatestYear, Dim3 type, Dim3, Dim3ValueCode, DataSourceDimValueCo...
+
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+``` r
+suicide_rates_age_standardized <- read_csv("/cloud/project/data/suicide_rates_age_standardized.csv")
+```
+
+    ## Rows: 10980 Columns: 34
+
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: ","
+    ## chr (15): IndicatorCode, Indicator, ValueType, ParentLocationCode, ParentLoc...
+    ## dbl  (4): Period, FactValueNumeric, FactValueNumericLow, FactValueNumericHigh
+    ## lgl (15): IsLatestYear, Dim2 type, Dim2, Dim2ValueCode, Dim3 type, Dim3, Dim...
+
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
 > glimpse(countries\_quality\_of\_life\_index) Rows: 115 Columns: 3 $
 > Name <chr> “Canada”, “Japan”, “Norway”, “Ireland”, “Hungary”, … $
 > NativeName <chr> “Canada”, “日本”, “Kongeriket Norge”, “Eire”, "Magy…
