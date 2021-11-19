@@ -1,6 +1,6 @@
 ---
-title: Project title
-author: by Team name
+title: Economic Development Effect on Quality of Life
+author: by zoomcoders
 output: github_document
 ---
 

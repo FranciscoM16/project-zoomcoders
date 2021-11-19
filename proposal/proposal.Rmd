@@ -11,8 +11,6 @@ library(tidyverse)
 library(broom)
 ```
 
-*For instructions on what each section should include, please see the [project page](https://idsed.digital/assessments/project/#proposal) on the course website. Remove this text when completing your proposal*.
-
 ## 1. Introduction
 
 *For our project, we want to investigate how the development of a country can impact the health of its citizens. For the purposes of this project, our research question will be "To what extent does economic development lead to better quality of life?"

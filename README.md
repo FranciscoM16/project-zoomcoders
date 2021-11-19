@@ -1,6 +1,6 @@
-Project title
+Economic Development Effect on Quality of Life
 ================
-by Team name
+by zoomcoders
 
 ## Summary
 
