@@ -122,8 +122,6 @@ maternal_mortality_ratio <-
     ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 ``` r
-#Doesn't have values for 2019
-
 births_attended_by_skilled_health_personnel <- read_csv("/cloud/project/data/births_attended_by_skilled_health_personnel.csv")
 ```
 
@@ -140,8 +138,6 @@ births_attended_by_skilled_health_personnel <- read_csv("/cloud/project/data/bir
     ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 ``` r
-#Not fully up to date
-
 suicide_rates_crude_10_year_age_groups <- read_csv("/cloud/project/data/suicide_rates_crude_10_year_age_groups.csv")
 ```
 
@@ -289,12 +285,13 @@ infant_mortality_clean <- infant_mortality_rate %>%
   filter(Year == 2019 & Gender == "Total") %>%
   select(Country, `Infant Mortality Rate`)
 #Remove "countries" such as "Central east Asia" and other continent names
+colnames(infant_mortality_clean) <- c("country", "infant_mortality_rate")
 
 
 hdi_clean <- human_development_index %>%
   select(2, 61)
 
-colnames(hdi_clean) <- c("country", "hdi")
+colnames(hdi_clean) <- c("country", "human_development_index")
 
 hdi_clean <- hdi_clean %>%
   filter(!is.na(country) & !(country == "Country") & !(country == "Human Development") & !(country == "Regions"))
@@ -304,6 +301,8 @@ hale_clean <- healthy_life_expectancy_at_birth %>%
   filter(Indicator == "Healthy life expectancy (HALE) at birth (years)" & Period == 2019 & Dim1 == "Both sexes") %>%
   select(Location, Value)
 
+colnames(hale_clean) <- c("country", "healthy_life_expectancy_at_birth")
+
 
 suicide_rates_age_groups <- suicide_rates_crude_10_year_age_groups %>%
   filter(Dim1 == "Both sexes") %>%
@@ -312,7 +311,51 @@ suicide_rates_age_groups <- suicide_rates_crude_10_year_age_groups %>%
 suicide_rates_clean <- suicide_rates_age_groups %>%
   group_by(Location) %>%
   summarise(Value = mean(Value))
+
+colnames(suicide_rates_clean) <- c("country", "suicide_rate_per_100000")
+
+
+maternal_mortality_num_clean <- maternal_mortality_ratio %>%
+  filter(Period == 2017 & Indicator == "Number of maternal deaths") %>%
+  select(Location, FactValueNumeric)
+
+maternal_mortality_rate_clean <- maternal_mortality_ratio %>%
+  filter(Period == 2017 & Indicator == "Maternal mortality ratio (per 100 000 live births)") %>%
+  select(Location, FactValueNumeric)
+  
+colnames(maternal_mortality_rate_clean) <- c("country", "maternal_mortality_rate_per_100000")
+colnames(maternal_mortality_num_clean) <- c("country", "number_maternal_deaths")
+
+
+births_attended_by_skilled_health_personnel_clean <- births_attended_by_skilled_health_personnel %>%
+  filter(IsLatestYear) %>%
+  select(Location, FactValueNumeric)
+
+colnames(births_attended_by_skilled_health_personnel_clean) <- c("country", "births_attended")
+
+
+# Merging dataframes into a single useable dataframe.
+
+dev_and_health <- merge(births_attended_by_skilled_health_personnel_clean, hale_clean, by = "country")
+dev_and_health <- merge(dev_and_health, hdi_clean, by = "country")
+dev_and_health <- merge(dev_and_health, infant_mortality_clean, by = "country")
+dev_and_health <- merge(dev_and_health, maternal_mortality_num_clean, by = "country")
+dev_and_health <- merge(dev_and_health, maternal_mortality_rate_clean, by = "country")
+dev_and_health <- merge(dev_and_health, suicide_rates_clean, by = "country")
+
+glimpse(dev_and_health)
 ```
+
+    ## Rows: 167
+    ## Columns: 8
+    ## $ country                            <chr> "Afghanistan", "Albania", "Algeria"…
+    ## $ births_attended                    <dbl> 58.8, 99.8, 98.8, 49.6, 100.0, 99.5…
+    ## $ healthy_life_expectancy_at_birth   <dbl> 54, 69, 66, 55, 67, 67, 67, 71, 71,…
+    ## $ human_development_index            <chr> "0.511", "0.795", "0.748", "0.581",…
+    ## $ infant_mortality_rate              <dbl> 46.512825, 8.614279, 19.954867, 50.…
+    ## $ number_maternal_deaths             <dbl> 7700, 5, 1200, 3000, 1, 290, 11, 20…
+    ## $ maternal_mortality_rate_per_100000 <dbl> 638, 15, 112, 241, 42, 39, 26, 6, 5…
+    ## $ suicide_rate_per_100000            <dbl> 10.50000, 7.42750, 3.96875, 43.3200…
 
 ## 3. Data analysis plan
 
