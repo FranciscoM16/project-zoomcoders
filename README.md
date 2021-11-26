@@ -28,10 +28,45 @@ Our presentation can be found [here](presentation/presentation.html).
 
 ## Data
 
-Include a citation for your data here. See
-<http://libraryguides.vu.edu.au/c.php?g=386501&p=4347840> for guidance
-on proper citation for datasets. If you got your data off the web, make
-sure to note the retrieval date.
+Data Reference List
+
+Human Development Reports, 2021, *Human Development Index (HDI)*,
+electronic dataset, United Nations Development Programme, viewed 12
+November 2021 <http://hdr.undp.org/en/indicators/137506>
+
+Human Development Reports, 2021, *Population living below income poverty
+line, national poverty line (%)*, electronic dataset, United Nations
+Development Programme, viewed 12 November 2021
+<http://hdr.undp.org/en/indicators/39006>
+
+Human Development Reports, 2020, *Current health expenditure (% of
+GDP)*, electronic dataset, United Nations Development Programme, viewed
+12 November 2021 <http://hdr.undp.org/en/indicators/181806>
+
+The Global Health Observatory, 2019, *Maternal mortality ratio (per 100
+000 live births)*, electronic dataset, World Health Organization, viewed
+12 November 2021,
+<https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)>
+
+The Global Health Observatory, 2021, *Age-standardized suicide rates
+(per 100 000 population)*, electronic dataset, World Health
+Organization, viewed 12 November 2021,
+<https://www.who.int/data/gho/data/themes/mental-health/suicide-rates>
+
+The Global Health Observatory, 2021, *Births attended by skilled health
+personnel (%)*, electronic dataset, World Health Organization, viewed 12
+November 2021,
+<https://www.who.int/data/gho/data/indicators/indicator-details/GHO/births-attended-by-skilled-health-personnel-(-)>
+
+The Global Health Observatory, 2021, *Crude suicide rates (per 100 000
+population)*, electronic dataset, World Health Organization, viewed 12
+November 2021,
+<https://www.who.int/data/gho/data/themes/mental-health/suicide-rates>
+
+The Global Health Observatory, 2021, *Healthy life expectancy (HALE) at
+birth (years)*, electronic dataset, World Health Organization, viewed 12
+November 2021,
+<https://www.who.int/data/gho/data/indicators/indicator-details/GHO/gho-ghe-hale-healthy-life-expectancy-at-birth>
 
 ## References
 
