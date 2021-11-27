@@ -121,6 +121,8 @@ dev_and_health <- merge(dev_and_health, maternal_mortality_rate_clean, by = "cou
 dev_and_health <- merge(dev_and_health, suicide_rates_clean, by = "country")
 
 glimpse(dev_and_health)
+
+write_csv(dev_and_health, file = "/cloud/project/data/dev_and_health.csv")
 ```
 
 

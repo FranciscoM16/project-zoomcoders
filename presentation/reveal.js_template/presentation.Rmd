@@ -1,7 +1,7 @@
 ---
-title: "Presentation title"
-subtitle: <font size='6'>Presentation subtitle (if any)</font>
-author: <font size='8'>Team name <br> Names of team members</font>
+title: "Economic Development Effect on Quality of Life"
+subtitle: <font size='6'>By countries, in 2019 </font>
+author: <font size='8'>Zoomcoders <br> Alex Milchev, Francisco Mendonca, Jiaqi Gao and Yingying Xiao</font>
 institute: <font size='10'>University of Edinburgh</font>
 date: <font size = '6'>`r Sys.Date()`</font>
 output:
@@ -25,10 +25,10 @@ knitr::opts_chunk$set(fig.retina = 3, dpi = 300, fig.width = 6, fig.asp = 0.618,
 ```
 
 ```{r load-data, include=FALSE}
-# Load your data here
+dev_and_health <- read_csv(here::here("data/dev_and_health.csv"))
 ```
 
-## A statement of the overall goal / research question {data-background-image="img/confetti.jpg"}
+## A statement of the overall goal / research question {data-background-color="rgb(169, 169, 169)"}
 
 # Section title
 
