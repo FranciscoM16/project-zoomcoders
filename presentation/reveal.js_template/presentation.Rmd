@@ -12,11 +12,13 @@ output:
 ```{r load-packages, include = FALSE}
 # Add any additional packages you need to this chunk
 library(rmarkdown)
+library(ggplot2)
 library(tidyverse)
 library(tidymodels)
 library(palmerpenguins)
 library(knitr)
 library(revealjs)
+library(data.table)
 ```
 
 ```{r setup, include=FALSE}
@@ -228,7 +230,58 @@ ggplot(data = dev_and_health, aes(x = human_development_index, y = suicide_rate_
     y = "Suicide Rate Per 100000")
 ```
 
-# Plots
+
+
+
+# Adjusted R Squared of Regression Model of Variables vs HDI 
+
+```{r r_squared_HDI}
+r_squared_HDI <- data.table(
+  healthy_life_expectancy_at_birth = glance(life_expectancy_HDI_fit)$adj.r.squared,
+  births_attended = glance(births_attended_HDI_fit)$adj.r.squared,
+  infant_mortality_rate = glance(IMR_HDI_fit)$adj.r.squared,
+  number_maternal_deaths = glance(NMD_HDI_fit)$adj.r.squared,
+  maternal_mortality_rate_per_100000 = glance(MMR_HDI_fit)$adj.r.squared,
+  suicide_rate_per_100000 = glance(suicide_rate_HDI_fit)$adj.r.squared
+  ) %>%
+  pivot_longer(
+    cols = c(
+      healthy_life_expectancy_at_birth,
+      births_attended,
+      infant_mortality_rate,
+      number_maternal_deaths,
+      maternal_mortality_rate_per_100000,
+      suicide_rate_per_100000
+    ),
+    names_to = "variables",
+    values_to = "adj_r_squared"
+  )
+r_squared_HDI
+```
+
+
+
+## Adjusted R Squared of Regression Model of Variables vs HDI (Plot)
+
+```{r adjusted r squared vs variables}
+
+ggplot(data = r_squared_HDI, aes(x = variables, y = adj_r_squared, fill = variables)) +
+  geom_bar(stat='identity') +
+  scale_fill_manual(values = c(
+    "healthy_life_expectancy_at_birth" = "#1b9e77",
+    "births_attended" = "#d95f02",
+    "infant_mortality_rate" = "#7570b3",
+    "number_maternal_deaths" = "#e7298a",
+    "maternal_mortality_rate_per_100000" = "#66a61e",
+    "suicide_rate_per_100000" = "#e6ab02"
+  ))+
+  scale_y_continuous(limits = c(0, 1))
+  
+```
+
+
+
+
 
 ```{r recode-species, echo = FALSE}
 # In this chunk I'm doing a bunch of analysis that I don't want to present 

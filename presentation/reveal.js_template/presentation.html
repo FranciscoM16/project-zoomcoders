@@ -319,8 +319,53 @@ like this
 <p><img src="presentation_files/figure-revealjs/Suicide%20Rate%20Per%20100000%20vs%20HDI%20(Plot)-1.png" width="70%" /></p>
 </section></section>
 <section>
-<section id="plots" class="title-slide slide level1">
-<h1>Plots</h1>
+<section id="adjusted-r-squared-of-regression-model-of-variables-vs-hdi" class="title-slide slide level1">
+<h1>Adjusted R Squared of Regression Model of Variables vs HDI</h1>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>r_squared_HDI <span class="ot">&lt;-</span> <span class="fu">data.table</span>(</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">healthy_life_expectancy_at_birth =</span> <span class="fu">glance</span>(life_expectancy_HDI_fit)<span class="sc">$</span>adj.r.squared,</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">births_attended =</span> <span class="fu">glance</span>(births_attended_HDI_fit)<span class="sc">$</span>adj.r.squared,</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">infant_mortality_rate =</span> <span class="fu">glance</span>(IMR_HDI_fit)<span class="sc">$</span>adj.r.squared,</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">number_maternal_deaths =</span> <span class="fu">glance</span>(NMD_HDI_fit)<span class="sc">$</span>adj.r.squared,</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">maternal_mortality_rate_per_100000 =</span> <span class="fu">glance</span>(MMR_HDI_fit)<span class="sc">$</span>adj.r.squared,</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">suicide_rate_per_100000 =</span> <span class="fu">glance</span>(suicide_rate_HDI_fit)<span class="sc">$</span>adj.r.squared</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">c</span>(</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>      healthy_life_expectancy_at_birth,</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>      births_attended,</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>      infant_mortality_rate,</span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>      number_maternal_deaths,</span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a>      maternal_mortality_rate_per_100000,</span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a>      suicide_rate_per_100000</span>
+<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">&quot;variables&quot;</span>,</span>
+<span id="cb23-19"><a href="#cb23-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">&quot;adj_r_squared&quot;</span></span>
+<span id="cb23-20"><a href="#cb23-20" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb23-21"><a href="#cb23-21" aria-hidden="true" tabindex="-1"></a>r_squared_HDI</span></code></pre></div>
+<pre><code>## # A tibble: 6 × 2
+##   variables                          adj_r_squared
+##   &lt;chr&gt;                                      &lt;dbl&gt;
+## 1 healthy_life_expectancy_at_birth          0.781 
+## 2 births_attended                           0.564 
+## 3 infant_mortality_rate                     0.781 
+## 4 number_maternal_deaths                    0.0613
+## 5 maternal_mortality_rate_per_100000        0.608 
+## 6 suicide_rate_per_100000                   0.245</code></pre>
+</section>
+<section id="adjusted-r-squared-of-regression-model-of-variables-vs-hdi-plot" class="slide level2">
+<h2>Adjusted R Squared of Regression Model of Variables vs HDI (Plot)</h2>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> r_squared_HDI, <span class="fu">aes</span>(<span class="at">x =</span> variables, <span class="at">y =</span> adj_r_squared, <span class="at">fill =</span> variables)) <span class="sc">+</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat=</span><span class="st">&#39;identity&#39;</span>) <span class="sc">+</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;healthy_life_expectancy_at_birth&quot;</span> <span class="ot">=</span> <span class="st">&quot;#1b9e77&quot;</span>,</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;births_attended&quot;</span> <span class="ot">=</span> <span class="st">&quot;#d95f02&quot;</span>,</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;infant_mortality_rate&quot;</span> <span class="ot">=</span> <span class="st">&quot;#7570b3&quot;</span>,</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;number_maternal_deaths&quot;</span> <span class="ot">=</span> <span class="st">&quot;#e7298a&quot;</span>,</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;maternal_mortality_rate_per_100000&quot;</span> <span class="ot">=</span> <span class="st">&quot;#66a61e&quot;</span>,</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;suicide_rate_per_100000&quot;</span> <span class="ot">=</span> <span class="st">&quot;#e6ab02&quot;</span></span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>  ))<span class="sc">+</span></span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>))</span></code></pre></div>
+<p><img src="presentation_files/figure-revealjs/adjusted%20r%20squared%20vs%20variables-1.png" width="80%" /></p>
 <p><img src="presentation_files/figure-revealjs/plot-iris-1.png" width="80%" /></p>
 </section>
 <section id="plot-and-text" class="slide level2">
