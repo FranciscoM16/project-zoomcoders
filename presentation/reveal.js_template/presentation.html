@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="Zoomcoders   Alex Milchev, Francisco Mendonca, Jiaqi Gao and Yingying Xiao" />
-  <meta name="dcterms.date" content="2021-11-27" />
+  <meta name="dcterms.date" content="2021-11-28" />
   <title>Economic Development Effect on Quality of Life</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -137,7 +137,7 @@
   <h1 class="subtitle"><font size='6'>By countries, in 2019 </font></h1>
   <h2 class="author"><font size='8'>Zoomcoders <br> Alex Milchev, Francisco Mendonca, Jiaqi Gao and Yingying Xiao</font></h2>
   <h3 class="institute"><font size='10'>University of Edinburgh</font></h2>
-  <h3 class="date"><font size = '6'>2021-11-27</font></h3>
+  <h3 class="date"><font size = '6'>2021-11-28</font></h3>
 </section>
 
 <section id="a-statement-of-the-overall-goal-research-question" class="slide level2" data-background-color="rgb(169, 169, 169)">
@@ -208,13 +208,13 @@ like this
 <h1>Code</h1>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># a boring regression</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>model <span class="ot">&lt;-</span> <span class="fu">lm</span>(dist <span class="sc">~</span> speed, <span class="at">data =</span> cars)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tidy</span>(model)</span></code></pre></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tidy</span>(model)</span></code></pre></div>
 <pre><code>## # A tibble: 2 × 5
 ##   term        estimate std.error statistic  p.value
 ##   &lt;chr&gt;          &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
 ## 1 (Intercept)   -17.6      6.76      -2.60 1.23e- 2
 ## 2 speed           3.93     0.416      9.46 1.49e-12</code></pre>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glance</span>(model)</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>  <span class="fu">glance</span>(model)</span></code></pre></div>
 <pre><code>## # A tibble: 1 × 12
 ##   r.squared adj.r.squared sigma statistic  p.value    df logLik   AIC   BIC
 ##       &lt;dbl&gt;         &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
@@ -222,6 +222,96 @@ like this
 ## # … with 3 more variables: deviance &lt;dbl&gt;, df.residual &lt;int&gt;, nobs &lt;int&gt;</code></pre>
 </section>
 
+<section>
+<section id="life-expectancy-vs-hdi" class="title-slide slide level1">
+<h1>Life Expectancy vs HDI</h1>
+<pre><code>## # A tibble: 2 × 5
+##   term                    estimate std.error statistic  p.value
+##   &lt;chr&gt;                      &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+## 1 (Intercept)                 37.6      1.07      35.0 3.50e-78
+## 2 human_development_index     36.0      1.48      24.4 1.47e-56</code></pre>
+</section>
+<section id="life-expectancy-vs-hdi-plot" class="slide level2">
+<h2>Life Expectancy vs HDI (Plot)</h2>
+<p><span class="math display">\[\hat{Life Expectancy}_{i}=37.56912+36.04045\times HDI_{i}\]</span></p>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="presentation_files/figure-revealjs/Life%20Expectancy%20vs%20HDI%20plot-1.png" width="70%" /></p>
+</section></section>
+<section>
+<section id="births-attended-by-skilled-health-personnel-vs-hdi" class="title-slide slide level1">
+<h1>Births attended by skilled health personnel (%) vs HDI</h1>
+<pre><code>## # A tibble: 2 × 5
+##   term                    estimate std.error statistic  p.value
+##   &lt;chr&gt;                      &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+## 1 (Intercept)                 24.3      4.47      5.45 1.83e- 7
+## 2 human_development_index     90.2      6.14     14.7  9.28e-32</code></pre>
+</section>
+<section id="births-attended-by-skilled-health-personnel-vs-hdi-plot" class="slide level2">
+<h2>Births attended by skilled health personnel (%) vs HDI (Plot)</h2>
+<p><span class="math display">\[\hat{health personnel}_{i}=24.32723+90.22275\times HDI_{i}\]</span></p>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="presentation_files/figure-revealjs/Births%20attended%20by%20skilled%20health%20personnel%20rate%20vs%20HDI%20(Plot)-1.png" width="60%" /></p>
+</section></section>
+<section>
+<section id="infant-mortality-rate-vs-hdi" class="title-slide slide level1">
+<h1>Infant Mortality Rate vs HDI</h1>
+<pre><code>## # A tibble: 2 × 5
+##   term                    estimate std.error statistic  p.value
+##   &lt;chr&gt;                      &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+## 1 (Intercept)                 103.      3.41      30.1 5.76e-69
+## 2 human_development_index    -114.      4.69     -24.4 1.54e-56</code></pre>
+</section>
+<section id="infant-mortality-rate-vs-hdi-plot" class="slide level2">
+<h2>Infant Mortality Rate vs HDI (Plot)</h2>
+<p><span class="math display">\[\hat{Infant Mortality Rate}_{i}=102.668-114.240\times HDI_{i}\]</span></p>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="presentation_files/figure-revealjs/Infant%20Mortality%20Rate%20vs%20HDI%20(Plot)-1.png" width="70%" /></p>
+</section></section>
+<section>
+<section id="number-maternal-deaths-vs-hdi" class="title-slide slide level1">
+<h1>Number Maternal Deaths vs HDI</h1>
+<pre><code>## # A tibble: 2 × 5
+##   term                    estimate std.error statistic   p.value
+##   &lt;chr&gt;                      &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+## 1 (Intercept)                9145.     2259.      4.05 0.0000794
+## 2 human_development_index  -10693.     3109.     -3.44 0.000737</code></pre>
+</section>
+<section id="number-maternal-deaths-vs-hdi-plot" class="slide level2">
+<h2>Number Maternal Deaths vs HDI (Plot)</h2>
+<p><span class="math display">\[\hat{Number Maternal Deaths}_{i}=9144.853-10693.198\times HDI_{i}\]</span></p>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="presentation_files/figure-revealjs/Number%20Maternal%20Deaths%20vs%20HDI%20(Plot)-1.png" width="70%" /></p>
+</section></section>
+<section>
+<section id="maternal-mortality-rate-per-100000-vs-hdi" class="title-slide slide level1">
+<h1>Maternal Mortality Rate Per 100000 vs HDI</h1>
+<pre><code>## # A tibble: 2 × 5
+##   term                    estimate std.error statistic  p.value
+##   &lt;chr&gt;                      &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+## 1 (Intercept)                1027.      55.2      18.6 2.10e-42
+## 2 human_development_index   -1221.      75.9     -16.1 1.26e-35</code></pre>
+</section>
+<section id="maternal-mortality-rate-per-100000-vs-hdi-plot" class="slide level2">
+<h2>Maternal Mortality Rate Per 100000 vs HDI (Plot)</h2>
+<p><span class="math display">\[\hat{Maternal Mortality Rate Per 100000}_{i}=1027.427-1221.303\times HDI_{i}\]</span></p>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="presentation_files/figure-revealjs/Maternal%20Mortality%20Rate%20Per%20100000%20vs%20HDI%20(Plot)-1.png" width="60%" /></p>
+</section></section>
+<section>
+<section id="suicide-rate-per-100000-vs-hdi" class="title-slide slide level1">
+<h1>Suicide Rate Per 100000 vs HDI</h1>
+<pre><code>## # A tibble: 2 × 5
+##   term                    estimate std.error statistic  p.value
+##   &lt;chr&gt;                      &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+## 1 (Intercept)                 62.9      5.80     10.8  5.08e-21
+## 2 human_development_index    -59.1      7.98     -7.40 6.46e-12</code></pre>
+</section>
+<section id="suicide-rate-per-100000-vs-hdi-plot" class="slide level2">
+<h2>Suicide Rate Per 100000 vs HDI (Plot)</h2>
+<p><span class="math display">\[\hat{Suicide Rate Per 100000}_{i}=62.91512-59.10957\times HDI_{i}\]</span></p>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="presentation_files/figure-revealjs/Suicide%20Rate%20Per%20100000%20vs%20HDI%20(Plot)-1.png" width="70%" /></p>
+</section></section>
 <section>
 <section id="plots" class="title-slide slide level1">
 <h1>Plots</h1>
