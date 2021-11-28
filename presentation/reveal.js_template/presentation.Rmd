@@ -96,10 +96,12 @@ model <- lm(dist ~ speed, data = cars)
 
 # Life Expectancy vs HDI
 ```{r Life Expectancy vs HDI, echo = FALSE}
-linear_reg() %>%
+life_expectancy_HDI_fit <- linear_reg() %>%
 	set_engine("lm") %>%
-	fit(healthy_life_expectancy_at_birth ~ human_development_index, data = dev_and_health) %>% 
-  tidy()
+	fit(healthy_life_expectancy_at_birth ~ human_development_index, data = dev_and_health)
+tidy(life_expectancy_HDI_fit)
+  
+glance(life_expectancy_HDI_fit)$adj.r.squared
 ```
 ## Life Expectancy vs HDI (Plot)
 $$\hat{Life Expectancy}_{i}=37.56912+36.04045\times HDI_{i}$$
@@ -116,10 +118,12 @@ ggplot(data = dev_and_health, aes(x = human_development_index, y = healthy_life_
 
 # Births attended by skilled health personnel (%) vs HDI
 ```{r Births attended by skilled health personnel rate vs HDI, echo = FALSE}
-linear_reg() %>%
+births_attended_HDI_fit <- linear_reg() %>%
 	set_engine("lm") %>%
-	fit(births_attended ~ human_development_index, data = dev_and_health) %>% 
-  tidy()
+	fit(births_attended ~ human_development_index, data = dev_and_health)
+tidy(births_attended_HDI_fit)
+
+glance(births_attended_HDI_fit)$adj.r.squared
 ```
 
 ## Births attended by skilled health personnel (%) vs HDI (Plot)
@@ -136,10 +140,12 @@ ggplot(data = dev_and_health, aes(x = human_development_index, y = births_attend
 
 # Infant Mortality Rate vs HDI
 ```{r Infant Mortality Rate vs HDI, echo = FALSE}
-linear_reg() %>%
+IMR_HDI_fit <- linear_reg() %>%
 	set_engine("lm") %>%
-	fit(infant_mortality_rate ~ human_development_index, data = dev_and_health) %>% 
-  tidy()
+	fit(infant_mortality_rate ~ human_development_index, data = dev_and_health)
+tidy(IMR_HDI_fit)
+
+glance(IMR_HDI_fit)$adj.r.squared
 ```
 
 ## Infant Mortality Rate vs HDI (Plot)
@@ -157,10 +163,12 @@ ggplot(data = dev_and_health, aes(x = human_development_index, y = infant_mortal
 
 # Number Maternal Deaths vs HDI
 ```{r Number Maternal Deaths vs HDI, echo = FALSE}
-linear_reg() %>%
+NMD_HDI_fit <- linear_reg() %>%
 	set_engine("lm") %>%
-	fit(number_maternal_deaths ~ human_development_index, data = dev_and_health) %>% 
-  tidy()
+	fit(number_maternal_deaths ~ human_development_index, data = dev_and_health)
+tidy(NMD_HDI_fit)
+
+glance(NMD_HDI_fit)$adj.r.squared
 ```
 
 ## Number Maternal Deaths vs HDI (Plot)
@@ -177,10 +185,12 @@ ggplot(data = dev_and_health, aes(x = human_development_index, y = number_matern
 
 # Maternal Mortality Rate Per 100000 vs HDI
 ```{r Maternal Mortality Rate Per 100000 vs HDI, echo = FALSE}
-linear_reg() %>%
+MMR_HDI_fit <- linear_reg() %>%
 	set_engine("lm") %>%
-	fit(maternal_mortality_rate_per_100000 ~ human_development_index, data = dev_and_health) %>% 
-  tidy()
+	fit(maternal_mortality_rate_per_100000 ~ human_development_index, data = dev_and_health)
+tidy(MMR_HDI_fit)
+
+glance(MMR_HDI_fit)$adj.r.squared
 ```
 
 ## Maternal Mortality Rate Per 100000 vs HDI (Plot)
@@ -197,11 +207,14 @@ ggplot(data = dev_and_health, aes(x = human_development_index, y = maternal_mort
 
 # Suicide Rate Per 100000 vs HDI
 ```{r Suicide Rate Per 100000 vs HDI, echo = FALSE}
-linear_reg() %>%
+suicide_rate_HDI_fit <- linear_reg() %>%
 	set_engine("lm") %>%
-	fit(suicide_rate_per_100000 ~ human_development_index, data = dev_and_health) %>% 
-  tidy()
+	fit(suicide_rate_per_100000 ~ human_development_index, data = dev_and_health)
+tidy(suicide_rate_HDI_fit)
+
+glance(suicide_rate_HDI_fit)$adj.r.squared
 ```
+
 
 ## Suicide Rate Per 100000 vs HDI (Plot)
 $$\hat{Suicide Rate Per 100000}_{i}=62.91512-59.10957\times HDI_{i}$$
