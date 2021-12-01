@@ -193,7 +193,7 @@ ggplot(data = dev_and_health, aes(x = human_development_index, y = suicide_rate_
 
 # Adjusted R Squared of Regression Model of Variables vs HDI {data-background-color="rgb(0, 34, 51)"}
 
-```{r r_squared_HDI}
+```{r r_squared_HDI,echo = FALSE}
 r_squared_HDI <- data.table(
   healthy_life_expectancy_at_birth = glance(life_expectancy_HDI_fit)$adj.r.squared,
   births_attended = glance(births_attended_HDI_fit)$adj.r.squared,
