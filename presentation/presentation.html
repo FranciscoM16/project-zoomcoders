@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Zoomcoders   Alex Milchev, Francisco Mendonca, Jiaqi Gao and Yingying Xiao" />
+  <meta name="dcterms.date" content="2021-12-01" />
+  <title>Economic Development Effect on Quality of Life</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="presentation_files/reveal.js-4.1.2/dist/reset.css">
+  <link rel="stylesheet" href="presentation_files/reveal.js-4.1.2/dist/reveal.css">
+
+  <style type="text/css">
+    /* CSS from pandoc style.html() */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+            pre > code.sourceCode { white-space: pre; position: relative; }
+            pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+            pre > code.sourceCode > span:empty { height: 1.2em; }
+            .sourceCode { overflow: visible; }
+            code.sourceCode > span { color: inherit; text-decoration: inherit; }
+            div.sourceCode { margin: 1em 0; }
+            pre.sourceCode { margin: 0; }
+            @media screen {
+            div.sourceCode { overflow: auto; }
+            }
+            @media print {
+            pre > code.sourceCode { white-space: pre-wrap; }
+            pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+            }
+            pre.numberSource code
+              { counter-reset: source-line 0; }
+            pre.numberSource code > span
+              { position: relative; left: -4em; counter-increment: source-line; }
+            pre.numberSource code > span > a:first-child::before
+              { content: counter(source-line);
+                position: relative; left: -1em; text-align: right; vertical-align: baseline;
+                border: none; display: inline-block;
+                -webkit-touch-callout: none; -webkit-user-select: none;
+                -khtml-user-select: none; -moz-user-select: none;
+                -ms-user-select: none; user-select: none;
+                padding: 0 4px; width: 4em;
+                color: #aaaaaa;
+              }
+            pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+            div.sourceCode
+              {   }
+            @media screen {
+            pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+            }
+            code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+            code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+            code span.at { color: #7d9029; } /* Attribute */
+            code span.bn { color: #40a070; } /* BaseN */
+            code span.bu { } /* BuiltIn */
+            code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+            code span.ch { color: #4070a0; } /* Char */
+            code span.cn { color: #880000; } /* Constant */
+            code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+            code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+            code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+            code span.dt { color: #902000; } /* DataType */
+            code span.dv { color: #40a070; } /* DecVal */
+            code span.er { color: #ff0000; font-weight: bold; } /* Error */
+            code span.ex { } /* Extension */
+            code span.fl { color: #40a070; } /* Float */
+            code span.fu { color: #06287e; } /* Function */
+            code span.im { } /* Import */
+            code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+            code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+            code span.op { color: #666666; } /* Operator */
+            code span.ot { color: #007020; } /* Other */
+            code span.pp { color: #bc7a00; } /* Preprocessor */
+            code span.sc { color: #4070a0; } /* SpecialChar */
+            code span.ss { color: #bb6688; } /* SpecialString */
+            code span.st { color: #4070a0; } /* String */
+            code span.va { color: #19177c; } /* Variable */
+            code span.vs { color: #4070a0; } /* VerbatimString */
+            code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+              </style>
+
+  <link rel="stylesheet" href="presentation_files/reveal.js-4.1.2/dist/theme/simple.css" id="theme">
+
+
+  <style type="text/css">
+  /* some tweaks to reveal css */
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+  </style>
+
+    <script src="presentation_files/header-attrs-2.11/header-attrs.js"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Economic Development Effect on Quality of Life</h1>
+  <h1 class="subtitle"><font size='6'>By countries, in 2019 </font></h1>
+  <h2 class="author"><font size='8'>Zoomcoders <br> Alex Milchev, Francisco Mendonca, Jiaqi Gao and Yingying Xiao</font></h2>
+  <h3 class="institute"><font size='10'>University of Edinburgh</font></h2>
+  <h3 class="date"><font size = '6'>2021-12-01</font></h3>
+</section>
+
+<section id="goal-to-investigate-how-the-development-of-a-country-can-impact-the-quality-of-life-of-its-citizens" class="slide level2" data-background-color="rgb(0, 34, 51)">
+<h2 data-background-color="rgb(0, 34, 51)">Goal: To investigate how the development of a country can impact the quality of life of its citizens</h2>
+<ul>
+<li>Hypothesis: “If we plot different measurements of quality of life against development by country, we expect to see a positive linear relationship because higher development leads to better quality of life”</li>
+</ul>
+</section>
+<section id="data" class="slide level2" data-background-color="rgb(0, 34, 51)">
+<h2 data-background-color="rgb(0, 34, 51)">Data</h2>
+<ul>
+<li>Data used in this analysis has come from two sources:
+<ul>
+<li><a href="http://hdr.undp.org/">UN Development Programme Human Development Reports</a></li>
+<li><a href="https://www.who.int/data/gho/gho-search">World Health Organization Global Health Observatory</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="exploratory-analysis-fitting-linear-regressions" class="slide level2" data-background-color="rgb(0, 34, 51)">
+<h2 data-background-color="rgb(0, 34, 51)">Exploratory Analysis: Fitting Linear regressions</h2>
+<ul>
+<li>For the first part of our analysis, we chose to fit linear regressions to different measurements against HDI
+<ul>
+<li>By doing this, we can firstly test our hypothesis and see if all these measurements have a positive linear relationship with HDI</li>
+</ul></li>
+</ul>
+</section>
+<section>
+<section id="life-expectancy-vs-hdi" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
+<h1 data-background-color="rgb(0, 34, 51)">Life Expectancy vs HDI</h1>
+<pre><code>## # A tibble: 2 × 5
+##   term                    estimate std.error statistic  p.value
+##   &lt;chr&gt;                      &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+## 1 (Intercept)                 37.6      1.07      35.0 3.50e-78
+## 2 human_development_index     36.0      1.48      24.4 1.47e-56</code></pre>
+<pre><code>## [1] 0.7812853</code></pre>
+</section>
+<section id="life-expectancy-vs-hdi-plot" class="slide level2" data-background-color="rgb(0, 34, 51)">
+<h2 data-background-color="rgb(0, 34, 51)">Life Expectancy vs HDI (Plot)</h2>
+<p><span class="math display">\[\hat{Life Expectancy}_{i}=37.56912+36.04045\times HDI_{i}\]</span></p>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="presentation_files/figure-revealjs/Life%20Expectancy%20vs%20HDI%20plot-1.png" width="70%" /></p>
+</section></section>
+<section>
+<section id="births-attended-by-skilled-health-personnel-vs-hdi" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
+<h1 data-background-color="rgb(0, 34, 51)">Births attended by skilled health personnel (%) vs HDI</h1>
+<pre><code>## # A tibble: 2 × 5
+##   term                    estimate std.error statistic  p.value
+##   &lt;chr&gt;                      &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+## 1 (Intercept)                 24.3      4.47      5.45 1.83e- 7
+## 2 human_development_index     90.2      6.14     14.7  9.28e-32</code></pre>
+<pre><code>## [1] 0.5638493</code></pre>
+</section>
+<section id="births-attended-by-skilled-health-personnel-vs-hdi-plot" class="slide level2" data-background-color="rgb(0, 34, 51)">
+<h2 data-background-color="rgb(0, 34, 51)">Births attended by skilled health personnel (%) vs HDI (Plot)</h2>
+<p><span class="math display">\[\hat{health personnel}_{i}=24.32723+90.22275\times HDI_{i}\]</span></p>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="presentation_files/figure-revealjs/Births%20attended%20by%20skilled%20health%20personnel%20rate%20vs%20HDI%20(Plot)-1.png" width="60%" /></p>
+</section></section>
+<section>
+<section id="infant-mortality-rate-vs-hdi" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
+<h1 data-background-color="rgb(0, 34, 51)">Infant Mortality Rate vs HDI</h1>
+<pre><code>## # A tibble: 2 × 5
+##   term                    estimate std.error statistic  p.value
+##   &lt;chr&gt;                      &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+## 1 (Intercept)                 103.      3.41      30.1 5.76e-69
+## 2 human_development_index    -114.      4.69     -24.4 1.54e-56</code></pre>
+<pre><code>## [1] 0.781167</code></pre>
+</section>
+<section id="infant-mortality-rate-vs-hdi-plot" class="slide level2" data-background-color="rgb(0, 34, 51)">
+<h2 data-background-color="rgb(0, 34, 51)">Infant Mortality Rate vs HDI (Plot)</h2>
+<p><span class="math display">\[\hat{Infant Mortality Rate}_{i}=102.668-114.240\times HDI_{i}\]</span></p>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="presentation_files/figure-revealjs/Infant%20Mortality%20Rate%20vs%20HDI%20(Plot)-1.png" width="70%" /></p>
+</section></section>
+<section>
+<section id="number-maternal-deaths-vs-hdi" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
+<h1 data-background-color="rgb(0, 34, 51)">Number Maternal Deaths vs HDI</h1>
+<pre><code>## # A tibble: 2 × 5
+##   term                    estimate std.error statistic   p.value
+##   &lt;chr&gt;                      &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+## 1 (Intercept)                9145.     2259.      4.05 0.0000794
+## 2 human_development_index  -10693.     3109.     -3.44 0.000737</code></pre>
+<pre><code>## [1] 0.06125487</code></pre>
+</section>
+<section id="number-maternal-deaths-vs-hdi-plot" class="slide level2" data-background-color="rgb(0, 34, 51)">
+<h2 data-background-color="rgb(0, 34, 51)">Number Maternal Deaths vs HDI (Plot)</h2>
+<p><span class="math display">\[\hat{Number Maternal Deaths}_{i}=9144. {data-background-color=&quot;rgb(0, 34, 102)&quot;}853-10693.198\times HDI_{i}\]</span></p>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="presentation_files/figure-revealjs/Number%20Maternal%20Deaths%20vs%20HDI%20(Plot)-1.png" width="70%" /></p>
+</section></section>
+<section>
+<section id="maternal-mortality-rate-per-100000-vs-hdi" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
+<h1 data-background-color="rgb(0, 34, 51)">Maternal Mortality Rate Per 100000 vs HDI</h1>
+<pre><code>## # A tibble: 2 × 5
+##   term                    estimate std.error statistic  p.value
+##   &lt;chr&gt;                      &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+## 1 (Intercept)                1027.      55.2      18.6 2.10e-42
+## 2 human_development_index   -1221.      75.9     -16.1 1.26e-35</code></pre>
+<pre><code>## [1] 0.6083118</code></pre>
+</section>
+<section id="maternal-mortality-rate-per-100000-vs-hdi-plot" class="slide level2" data-background-color="rgb(0, 34, 51)">
+<h2 data-background-color="rgb(0, 34, 51)">Maternal Mortality Rate Per 100000 vs HDI (Plot)</h2>
+<p><span class="math display">\[\hat{Maternal Mortality Rate Per 100000}_{i}=1027.427-1221.303\times HDI_{i}\]</span></p>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="presentation_files/figure-revealjs/Maternal%20Mortality%20Rate%20Per%20100000%20vs%20HDI%20(Plot)-1.png" width="60%" /></p>
+</section></section>
+<section>
+<section id="suicide-rate-per-100000-vs-hdi" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
+<h1 data-background-color="rgb(0, 34, 51)">Suicide Rate Per 100000 vs HDI</h1>
+<pre><code>## # A tibble: 2 × 5
+##   term                    estimate std.error statistic  p.value
+##   &lt;chr&gt;                      &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+## 1 (Intercept)                 62.9      5.80     10.8  5.08e-21
+## 2 human_development_index    -59.1      7.98     -7.40 6.46e-12</code></pre>
+<pre><code>## [1] 0.2448003</code></pre>
+</section>
+<section id="suicide-rate-per-100000-vs-hdi-plot" class="slide level2" data-background-color="rgb(0, 34, 51)">
+<h2 data-background-color="rgb(0, 34, 51)">Suicide Rate Per 100000 vs HDI (Plot)</h2>
+<p><span class="math display">\[\hat{Suicide Rate Per 100000}_{i}=62.91512-59.10957\times HDI_{i}\]</span></p>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="presentation_files/figure-revealjs/Suicide%20Rate%20Per%20100000%20vs%20HDI%20(Plot)-1.png" width="70%" /></p>
+</section></section>
+<section id="initial-analysis" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
+<h1 data-background-color="rgb(0, 34, 51)">Initial analysis</h1>
+<ul>
+<li>From the initial regression fits, we can see that our hypothesis was correct
+<ul>
+<li>We generally saw a linear relationship between our measurements and HDI, seeing positive linear relationships with measurements such as healthy life expectancy, births attended by skilled health personnel, and negative linear relationships with measurements such as suicide rate, number of maternal deaths, infant mortality rate, and maternal mortality rate</li>
+<li>However, the strength of these relationships varied, as we saw that the r squared values of some of these relationships was as high as 0.78, and some as low as 0.06.
+<ul>
+<li>For the next part of our analysis we want to see how the r squared values of these measurements compare to each other.</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+
+<section>
+<section id="adjusted-r-squared-of-regression-model-of-variables-vs-hdi" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
+<h1 data-background-color="rgb(0, 34, 51)">Adjusted R Squared of Regression Model of Variables vs HDI</h1>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>r_squared_HDI <span class="ot">&lt;-</span> <span class="fu">data.table</span>(</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">healthy_life_expectancy_at_birth =</span> <span class="fu">glance</span>(life_expectancy_HDI_fit)<span class="sc">$</span>adj.r.squared,</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">births_attended =</span> <span class="fu">glance</span>(births_attended_HDI_fit)<span class="sc">$</span>adj.r.squared,</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">infant_mortality_rate =</span> <span class="fu">glance</span>(IMR_HDI_fit)<span class="sc">$</span>adj.r.squared,</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">number_maternal_deaths =</span> <span class="fu">glance</span>(NMD_HDI_fit)<span class="sc">$</span>adj.r.squared,</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">maternal_mortality_rate_per_100000 =</span> <span class="fu">glance</span>(MMR_HDI_fit)<span class="sc">$</span>adj.r.squared,</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">suicide_rate_per_100000 =</span> <span class="fu">glance</span>(suicide_rate_HDI_fit)<span class="sc">$</span>adj.r.squared</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">c</span>(</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>      healthy_life_expectancy_at_birth,</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>      births_attended,</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>      infant_mortality_rate,</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>      number_maternal_deaths,</span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>      maternal_mortality_rate_per_100000,</span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>      suicide_rate_per_100000</span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">&quot;variables&quot;</span>,</span>
+<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">&quot;adj_r_squared&quot;</span></span>
+<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a>r_squared_HDI</span></code></pre></div>
+<pre><code>## # A tibble: 6 × 2
+##   variables                          adj_r_squared
+##   &lt;chr&gt;                                      &lt;dbl&gt;
+## 1 healthy_life_expectancy_at_birth          0.781 
+## 2 births_attended                           0.564 
+## 3 infant_mortality_rate                     0.781 
+## 4 number_maternal_deaths                    0.0613
+## 5 maternal_mortality_rate_per_100000        0.608 
+## 6 suicide_rate_per_100000                   0.245</code></pre>
+</section>
+<section id="adjusted-r-squared-of-regression-model-of-variables-vs-hdi-plot" class="slide level2" data-background-color="rgb(0, 34, 51)">
+<h2 data-background-color="rgb(0, 34, 51)">Adjusted R Squared of Regression Model of Variables vs HDI (Plot)</h2>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> r_squared_HDI, <span class="fu">aes</span>(<span class="at">y =</span> variables, <span class="at">x =</span> adj_r_squared, <span class="at">fill =</span> variables)) <span class="sc">+</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat=</span><span class="st">&#39;identity&#39;</span>) <span class="sc">+</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;healthy_life_expectancy_at_birth&quot;</span> <span class="ot">=</span> <span class="st">&quot;#1b9e77&quot;</span>,</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;births_attended&quot;</span> <span class="ot">=</span> <span class="st">&quot;#d95f02&quot;</span>,</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;infant_mortality_rate&quot;</span> <span class="ot">=</span> <span class="st">&quot;#7570b3&quot;</span>,</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;number_maternal_deaths&quot;</span> <span class="ot">=</span> <span class="st">&quot;#e7298a&quot;</span>,</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;maternal_mortality_rate_per_100000&quot;</span> <span class="ot">=</span> <span class="st">&quot;#66a61e&quot;</span>,</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;suicide_rate_per_100000&quot;</span> <span class="ot">=</span> <span class="st">&quot;#e6ab02&quot;</span></span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>  ))<span class="sc">+</span></span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>)) <span class="sc">+</span> </span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;Health &amp; Quality of Life Measurmenets&quot;</span>,</span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;Adjusted R Squared&quot;</span>,</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;Adjusted R Squared Values&quot;</span>,</span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">&quot;by Health &amp; Quality of Life Measurements&quot;</span>,</span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">&quot;Measurements&quot;</span>)</span></code></pre></div>
+<p><img src="presentation_files/figure-revealjs/adjusted%20r%20squared%20vs%20variables-1.png" width="80%" /></p>
+</section></section>
+<section id="adjusted-r-squared-interpretation" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
+<h1 data-background-color="rgb(0, 34, 51)">Adjusted R Squared Interpretation</h1>
+<ul>
+<li>We can see that variables such as healthy life expectancy at birth and infant mortality rates had the highest adjusted r^2 values.
+<ul>
+<li>We expect more developed countries to have better medical facilities, therefore have longer healthy life expectancies (strong positive relationship), and have lower rates of infant mortality (strong negative relationship)</li>
+</ul></li>
+<li>However, we also see that certain measurements such as maternal deaths and suicide rate have relatively low r squared values.
+<ul>
+<li>For maternal deaths, this can be explained by the fact that for HDI values higher than 0.8, number of maternal deaths was almost zero, hence not fitting a linear model that well</li>
+<li>For suicide rate, we can infer that although medical facilities and technology may be quite high, this does not necessarily relate to high levels of mental health.</li>
+</ul></li>
+</ul>
+</section>
+
+<section id="conclusion" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
+<h1 data-background-color="rgb(0, 34, 51)">Conclusion</h1>
+<ul>
+<li>We can overall say that our hypothesis was backed up by our results
+<ul>
+<li>However, the spread was much higher than expected
+<ul>
+<li>Highest r squared value for any measurement was 0.78, indicating that there isn’t such a straightforward linear relationship between a measurement and HDI</li>
+</ul></li>
+</ul></li>
+<li>In addition we saw that measurements such as suicide rate don’t necessarily have a strong relationship with HDI
+<ul>
+<li>This could be caused by a multitude of other factors, that may be more present in countries that are more developed
+<ul>
+<li>Example: stress caused by work, school, etc.</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+
+<section id="sources" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
+<h1 data-background-color="rgb(0, 34, 51)">Sources</h1>
+<ul>
+<li><a href="http://hdr.undp.org/en/indicators/137506">HDI by country - 2019</a></li>
+<li><a href="http://hdr.undp.org/en/indicators/39006">Population living below poverty line (%) by country - 2019</a></li>
+<li><a href="http://hdr.undp.org/en/indicators/18180">Current Health Expenditure (% of GDP) by country - 2019</a></li>
+<li><a href="https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)">Maternity Mortality Ratio by country - 2019</a></li>
+<li><a href="https://www.who.int/data/gho/data/themes/mental-health/suicide-rates">Suicide Rates by country - 2019</a></li>
+<li><a href="https://www.who.int/data/gho/data/indicators/indicator-details/GHO/births-attended-by-skilled-health-personnel-(-)">Births attended by skilled personnel (%) by country - 2019</a></li>
+<li><a href="https://www.who.int/data/gho/data/indicators/indicator-details/GHO/gho-ghe-hale-healthy-life-expectancy-at-birth">Healthy Life Expectancy by country - 2019</a></li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="presentation_files/reveal.js-4.1.2/dist/reveal.js"></script>
+  
+  <!-- reveal.js plugins -->
+  
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+        // Display a presentation progress bar
+        progress: true,
+        // Display the page number of the current slide
+        slideNumber: false,
+        // Can be used to limit the contexts in which the slide number appears
+        showSlideNumber: 'all',
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: false,
+          // Use 1 based indexing for # links to match slide number (default is zero
+        // based)
+        hashOneBasedIndex: false,
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+        // Push each slide change to the browser history
+        // Implies `hash: true`
+        history: true,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+  // Disables the default reveal.js slide layout (scaling and centering)
+  // so that you can use custom CSS layout
+  disableLayout: false,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: false,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Loop the presentation
+        loop: false,
+        // Change the presentation direction to be RTL
+        rtl: false,
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+        // Transition style
+        transition: 'convex', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+        // The display mode that will be used to show slides
+        display: 'block',
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+
+
+        // Optional reveal.js plugins
+        plugins: [
+        ]
+      });
+
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>

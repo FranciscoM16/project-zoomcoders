@@ -87,7 +87,8 @@ ggplot(data = dev_and_health, aes(x = human_development_index, y = births_attend
   coord_cartesian(ylim = c(0, 100)) +
   labs(
     x = "HDI",
-    y = "Births attended by skilled health personnel (%)")
+    y = "Births attended by skilled health personnel (%)",
+    title = "Births attended by skilled health personnel rate vs HDI")
 ```
 
 # Infant Mortality Rate vs HDI {data-background-color="rgb(0, 34, 51)"}
@@ -110,7 +111,8 @@ ggplot(data = dev_and_health, aes(x = human_development_index, y = infant_mortal
   coord_cartesian(ylim = c(0, 100)) +
   labs(
     x = "HDI",
-    y = "Infant Mortality Rate")
+    y = "Infant Mortality Rate",
+    title = "Infant Mortality Rate vs HDI")
 ```
 
 # Number Maternal Deaths vs HDI {data-background-color="rgb(0, 34, 51)"}
@@ -132,7 +134,8 @@ ggplot(data = dev_and_health, aes(x = human_development_index, y = number_matern
   geom_smooth(method = "lm", se = FALSE) +
   labs(
     x = "HDI",
-    y = "Number Maternal Deaths")
+    y = "Number Maternal Deaths",
+    title = "Number Maternal Deaths vs HDI")
 ```
 
 # Maternal Mortality Rate Per 100000 vs HDI {data-background-color="rgb(0, 34, 51)"}
@@ -154,7 +157,8 @@ ggplot(data = dev_and_health, aes(x = human_development_index, y = maternal_mort
   geom_smooth(method = "lm", se = FALSE) +
   labs(
     x = "HDI",
-    y = "Maternal Mortality Rate Per 100000")
+    y = "Maternal Mortality Rate Per 100000",
+    title = "Maternal Mortality Rate Per 100000 vs HDI")
 ```
 
 # Suicide Rate Per 100000 vs HDI {data-background-color="rgb(0, 34, 51)"}
@@ -177,11 +181,15 @@ ggplot(data = dev_and_health, aes(x = human_development_index, y = suicide_rate_
   geom_smooth(method = "lm", se = FALSE) +
   labs(
     x = "HDI",
-    y = "Suicide Rate Per 100000")
+    y = "Suicide Rate Per 100000",
+    title = "Suicide Rate Per 100000 vs HDI")
 ```
 
-
-
+# Initial analysis {data-background-color="rgb(0, 34, 51)"}
+- From the initial regression fits, we can see that our hypothesis was correct
+  - We generally saw a linear relationship between our measurements and HDI, seeing positive linear relationships with measurements such as healthy life expectancy, births attended by skilled health personnel, and negative linear relationships with measurements such as suicide rate, number of maternal deaths, infant mortality rate, and maternal mortality rate
+  - However, the strength of these relationships varied, as we saw that the r squared values of some of these relationships was as high as 0.78, and some as low as 0.06.
+    - For the next part of our analysis we want to see how the r squared values of these measurements compare to each other.
 
 # Adjusted R Squared of Regression Model of Variables vs HDI {data-background-color="rgb(0, 34, 51)"}
 
@@ -209,13 +217,11 @@ r_squared_HDI <- data.table(
 r_squared_HDI
 ```
 
-
-
 ## Adjusted R Squared of Regression Model of Variables vs HDI (Plot) {data-background-color="rgb(0, 34, 51)"}
 
 ```{r adjusted r squared vs variables}
 
-ggplot(data = r_squared_HDI, aes(x = variables, y = adj_r_squared, fill = variables)) +
+ggplot(data = r_squared_HDI, aes(y = variables, x = adj_r_squared, fill = variables)) +
   geom_bar(stat='identity') +
   scale_fill_manual(values = c(
     "healthy_life_expectancy_at_birth" = "#1b9e77",
@@ -225,161 +231,36 @@ ggplot(data = r_squared_HDI, aes(x = variables, y = adj_r_squared, fill = variab
     "maternal_mortality_rate_per_100000" = "#66a61e",
     "suicide_rate_per_100000" = "#e6ab02"
   ))+
-  scale_y_continuous(limits = c(0, 1))
+  scale_x_continuous(limits = c(0, 1)) + 
+  labs(
+    y = "Health & Quality of Life Measurmenets",
+    x = "Adjusted R Squared",
+    title = "Adjusted R Squared Values",
+    subtitle = "by Health & Quality of Life Measurements",
+    fill = "Measurements")
   
 ```
 
+# Adjusted R Squared Interpretation {data-background-color="rgb(0, 34, 51)"}
+- We can see that variables such as healthy life expectancy at birth and infant mortality rates had the highest adjusted r^2 values.
+  - We expect more developed countries to have better medical facilities, therefore have longer healthy life expectancies (strong positive relationship), and have lower rates of infant mortality (strong negative relationship)
+- However, we also see that certain measurements such as maternal deaths and suicide rate have relatively low r squared values.
+  - For maternal deaths, this can be explained by the fact that for HDI values higher than 0.8, number of maternal deaths was almost zero, hence not fitting a linear model that well
+  - For suicide rate, we can infer that although medical facilities and technology may be quite high, this does not necessarily relate to high levels of mental health.
 
-# Hello World
+# Conclusion {data-background-color="rgb(0, 34, 51)"}
+- We can overall say that our hypothesis was backed up by our results
+  - However, the spread was much higher than expected
+    - Highest r squared value for any measurement was 0.78, indicating that there isn't such a straightforward linear relationship between a measurement and HDI
+- In addition we saw that measurements such as suicide rate don't necessarily have a strong relationship with HDI
+  - This could be caused by a multitude of other factors, that may be more present in countries that are more developed
+    - Example: stress caused by work, school, etc.
 
-- Click the `Knit` button to compile your presentation
-
-- Make sure to commit and push all resulting files to your GitHub repo
-
-# Using reveal.js
-
-It's possible to have a horizontal sliding transition as well as nest multiple slides to create a vertical stack.
-
-When presenting, you use the left/right arrows to step through the top-level (horizontal) slides. When you arrive at a vertical stack you can optionally press the up/down arrows to view the vertical slides or skip past them by pressing the right arrow.
-
-(click the down key now)
-
-## reveal.js
-
-- The presentation is created using the `reveal.js` package
-
-- You can create a slide show broken up into sections by using the # and ## heading tags
-
-- You can also create a new slide without a header using a horizontal rule (----)
-
-----
-
-- You can also add pauses between content on a slide using (". . .")
-
-. . .
-
-Like this.
-
-...or using "::: fragment"
-
-::: fragment
-
-Like this.
-
-:::
-
-# Layouts
-
-You can use plain text
-
-- or bullet points
-
-<div>
-  <div style="float: left; width: 50%;">or text in two columns</div>
-  <div style="float: left; width: 50%;">like this</div>
-</div>
-
-because you can combine HTML and Markdown syntax.
-
-<p style="font-size: 8pt; position: absolute; bottom: -5em; width: 100%; text-align: center;">*You can also add footnotes</p>
-
-# Code
-
-```{r boring-regression}
-# a boring regression
-model <- lm(dist ~ speed, data = cars)
-  tidy(model)
-  glance(model)
-```
-
-
-
-```{r recode-species, echo = FALSE}
-# In this chunk I'm doing a bunch of analysis that I don't want to present 
-# in my slides. But I need the resulting data frame for a plot I want to present.
-iris_modified <- iris %>%
-  mutate(Species = fct_other(Species, keep = "setosa"))
-```
-
-```{r plot-iris, echo = FALSE}
-# Code hidden with echo = FALSE
-# Uses modified iris dataset from previous chunk
-# Play around with height and width until you're happy with the look
-ggplot(data = iris_modified, mapping = aes(x = Sepal.Width, y = Sepal.Length, color = Species)) +
-  geom_point() + 
-  theme_minimal() # theme options: https://ggplot2.tidyverse.org/reference/ggtheme.html
-```
-
-## Plot and text
-
-::: columns
-:::: column
-* Some text
-* goes here
-::::
-
-:::: column
-```{r warning=FALSE, out.width="100%", fig.width=4, echo=FALSE}
-# see how I changed out.width and fig.width from defaults
-# to make the figure bigger
-ggplot(penguins, aes(x = bill_length_mm, y = species, color = species)) +
-  geom_boxplot() +
-  theme_minimal()
-```
-::::
-:::
-
-## Different widths
-
-::: columns
-:::: {.column width="40%"}
-* Some text
-* goes here
-::::
-
-:::: {.column width="60%"}
-```{r warning=FALSE, out.width="100%", fig.width=4, echo=FALSE}
-# see how I changed out.width and fig.width from defaults
-# to make the figure bigger
-ggplot(penguins, aes(x = bill_length_mm, y = species, color = species)) +
-  geom_boxplot() +
-  theme_minimal()
-```
-::::
-:::
-
-# Tables
-
-If you want to generate a table, make sure it is in the HTML format (instead of Markdown or other formats), e.g.,
-
-```{r iris-table, echo = FALSE}
-kable(head(iris), format = "html")
-```
-
-# Images
-
-```{r castle, echo = FALSE, out.width = "60%", fig.align = "center", fig.cap = "Image credit: Photo by Jörg Angeli on Unsplash."}
-include_graphics("https://images.unsplash.com/photo-1535448033526-c0e85c9e6968?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80")
-```
-
-Or you can also include a full page image. See next slide.
-
-## {data-background-image="https://images.unsplash.com/photo-1535448033526-c0e85c9e6968?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"}
-
-# Math Expressions
-
-You can write LaTeX math expressions inside a pair of dollar signs (\$...\$), e.g. $\alpha+\beta$. You can use the display style with double dollar signs:
-
-$$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
-
-# Feeling adventurous?
-
-You can learn more about the options available at the following pages:
-
-- https://github.com/rstudio/revealjs
-
-- https://bookdown.org/yihui/rmarkdown/revealjs.html
-
-- http://www.jenniferbradham.org/post/reveal_js_markdown/
-
-- https://revealjs.com/
+# Sources {data-background-color="rgb(0, 34, 51)"}
+- [HDI by country - 2019](http://hdr.undp.org/en/indicators/137506)
+- [Population living below poverty line (%) by country - 2019](http://hdr.undp.org/en/indicators/39006)
+- [Current Health Expenditure (% of GDP) by country - 2019](http://hdr.undp.org/en/indicators/18180)
+- [Maternity Mortality Ratio by country - 2019](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births))
+- [Suicide Rates by country - 2019](https://www.who.int/data/gho/data/themes/mental-health/suicide-rates)
+- [Births attended by skilled personnel (%) by country - 2019](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/births-attended-by-skilled-health-personnel-(-))
+- [Healthy Life Expectancy by country - 2019](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/gho-ghe-hale-healthy-life-expectancy-at-birth)
