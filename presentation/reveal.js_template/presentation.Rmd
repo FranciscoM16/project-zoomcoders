@@ -7,6 +7,8 @@ date: <font size = '6'>`r Sys.Date()`</font>
 output:
   revealjs::revealjs_presentation:
     self_contained: false
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r load-packages, include = FALSE}
@@ -30,9 +32,203 @@ knitr::opts_chunk$set(fig.retina = 3, dpi = 300, fig.width = 6, fig.asp = 0.618,
 dev_and_health <- read_csv(here::here("data/dev_and_health.csv"))
 ```
 
-## A statement of the overall goal / research question {data-background-color="rgb(169, 169, 169)"}
+## Goal: To investigate how the development of a country can impact the quality of life of its citizens {data-background-color="rgb(0, 34, 51)"}
+- Hypothesis: "If we plot different measurements of quality of life against development by country, we expect to see a positive linear relationship because higher development leads to better quality of life"
 
-# Section title
+
+## Data {data-background-color="rgb(0, 34, 51)"}
+- Data used in this analysis has come from two sources:
+  - [UN Development Programme Human Development Reports](http://hdr.undp.org/)
+  - [World Health Organization Global Health Observatory](https://www.who.int/data/gho/gho-search)
+
+## Exploratory Analysis: Fitting Linear regressions {data-background-color="rgb(0, 34, 51)"}
+- For the first part of our analysis, we chose to fit linear regressions to different measurements against HDI 
+  - By doing this, we can firstly test our hypothesis and see if all these measurements have a positive linear relationship with HDI
+
+
+# Life Expectancy vs HDI {data-background-color="rgb(0, 34, 51)"}
+```{r Life Expectancy vs HDI, echo = FALSE}
+life_expectancy_HDI_fit <- linear_reg() %>%
+	set_engine("lm") %>%
+	fit(healthy_life_expectancy_at_birth ~ human_development_index, data = dev_and_health)
+tidy(life_expectancy_HDI_fit)
+  
+glance(life_expectancy_HDI_fit)$adj.r.squared
+```
+## Life Expectancy vs HDI (Plot) {data-background-color="rgb(0, 34, 51)"}
+$$\hat{Life Expectancy}_{i}=37.56912+36.04045\times HDI_{i}$$
+```{r Life Expectancy vs HDI plot, out.width="70%", fig.width=5, echo = FALSE}
+ggplot(data = dev_and_health, aes(x = human_development_index, y = healthy_life_expectancy_at_birth)) +
+  geom_point(alpha = 0.4) +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(
+    x = "HDI",
+    y = "Life Expectancy",
+    title = "Life Expectancy vs HDI")
+```
+
+
+# Births attended by skilled health personnel (%) vs HDI {data-background-color="rgb(0, 34, 51)"}
+```{r Births attended by skilled health personnel rate vs HDI, echo = FALSE}
+births_attended_HDI_fit <- linear_reg() %>%
+	set_engine("lm") %>%
+	fit(births_attended ~ human_development_index, data = dev_and_health)
+tidy(births_attended_HDI_fit)
+
+glance(births_attended_HDI_fit)$adj.r.squared
+```
+
+## Births attended by skilled health personnel (%) vs HDI (Plot) {data-background-color="rgb(0, 34, 51)"}
+$$\hat{health personnel}_{i}=24.32723+90.22275\times HDI_{i}$$
+```{r Births attended by skilled health personnel rate vs HDI (Plot), out.width="60%", fig.width=5, echo = FALSE}
+ggplot(data = dev_and_health, aes(x = human_development_index, y = births_attended)) +
+  geom_point(alpha = 0.4) +
+  geom_smooth(method = "lm", se = FALSE) +
+  coord_cartesian(ylim = c(0, 100)) +
+  labs(
+    x = "HDI",
+    y = "Births attended by skilled health personnel (%)")
+```
+
+# Infant Mortality Rate vs HDI {data-background-color="rgb(0, 34, 51)"}
+```{r Infant Mortality Rate vs HDI, echo = FALSE}
+IMR_HDI_fit <- linear_reg() %>%
+	set_engine("lm") %>%
+	fit(infant_mortality_rate ~ human_development_index, data = dev_and_health)
+tidy(IMR_HDI_fit)
+
+glance(IMR_HDI_fit)$adj.r.squared
+```
+
+## Infant Mortality Rate vs HDI (Plot) {data-background-color="rgb(0, 34, 51)"}
+$$\hat{Infant Mortality Rate}_{i}=102.668-114.240\times HDI_{i}$$
+
+```{r Infant Mortality Rate vs HDI (Plot), out.width="70%", fig.width=5, echo = FALSE}
+ggplot(data = dev_and_health, aes(x = human_development_index, y = infant_mortality_rate)) +
+  geom_point(alpha = 0.4) +
+  geom_smooth(method = "lm", se = FALSE) +
+  coord_cartesian(ylim = c(0, 100)) +
+  labs(
+    x = "HDI",
+    y = "Infant Mortality Rate")
+```
+
+# Number Maternal Deaths vs HDI {data-background-color="rgb(0, 34, 51)"}
+```{r Number Maternal Deaths vs HDI, echo = FALSE}
+NMD_HDI_fit <- linear_reg() %>%
+	set_engine("lm") %>%
+	fit(number_maternal_deaths ~ human_development_index, data = dev_and_health)
+tidy(NMD_HDI_fit)
+
+glance(NMD_HDI_fit)$adj.r.squared
+```
+
+## Number Maternal Deaths vs HDI (Plot) {data-background-color="rgb(0, 34, 51)"}
+$$\hat{Number Maternal Deaths}_{i}=9144. {data-background-color="rgb(0, 34, 102)"}853-10693.198\times HDI_{i}$$
+
+```{r Number Maternal Deaths vs HDI (Plot), out.width="70%", fig.width=5, echo = FALSE}
+ggplot(data = dev_and_health, aes(x = human_development_index, y = number_maternal_deaths)) +
+  geom_point(alpha = 0.4) +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(
+    x = "HDI",
+    y = "Number Maternal Deaths")
+```
+
+# Maternal Mortality Rate Per 100000 vs HDI {data-background-color="rgb(0, 34, 51)"}
+```{r Maternal Mortality Rate Per 100000 vs HDI, echo = FALSE}
+MMR_HDI_fit <- linear_reg() %>%
+	set_engine("lm") %>%
+	fit(maternal_mortality_rate_per_100000 ~ human_development_index, data = dev_and_health)
+tidy(MMR_HDI_fit)
+
+glance(MMR_HDI_fit)$adj.r.squared
+```
+
+## Maternal Mortality Rate Per 100000 vs HDI (Plot) {data-background-color="rgb(0, 34, 51)"}
+$$\hat{Maternal Mortality Rate Per 100000}_{i}=1027.427-1221.303\times HDI_{i}$$
+
+```{r Maternal Mortality Rate Per 100000 vs HDI (Plot), out.width="60%", fig.width=5, echo = FALSE}
+ggplot(data = dev_and_health, aes(x = human_development_index, y = maternal_mortality_rate_per_100000)) +
+  geom_point(alpha = 0.4) +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(
+    x = "HDI",
+    y = "Maternal Mortality Rate Per 100000")
+```
+
+# Suicide Rate Per 100000 vs HDI {data-background-color="rgb(0, 34, 51)"}
+```{r Suicide Rate Per 100000 vs HDI, echo = FALSE}
+suicide_rate_HDI_fit <- linear_reg() %>%
+	set_engine("lm") %>%
+	fit(suicide_rate_per_100000 ~ human_development_index, data = dev_and_health)
+tidy(suicide_rate_HDI_fit)
+
+glance(suicide_rate_HDI_fit)$adj.r.squared
+```
+
+
+## Suicide Rate Per 100000 vs HDI (Plot) {data-background-color="rgb(0, 34, 51)"}
+$$\hat{Suicide Rate Per 100000}_{i}=62.91512-59.10957\times HDI_{i}$$
+
+```{r Suicide Rate Per 100000 vs HDI (Plot), out.width="70%", fig.width=5, echo = FALSE}
+ggplot(data = dev_and_health, aes(x = human_development_index, y = suicide_rate_per_100000)) +
+  geom_point(alpha = 0.4) +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(
+    x = "HDI",
+    y = "Suicide Rate Per 100000")
+```
+
+
+
+
+# Adjusted R Squared of Regression Model of Variables vs HDI {data-background-color="rgb(0, 34, 51)"}
+
+```{r r_squared_HDI}
+r_squared_HDI <- data.table(
+  healthy_life_expectancy_at_birth = glance(life_expectancy_HDI_fit)$adj.r.squared,
+  births_attended = glance(births_attended_HDI_fit)$adj.r.squared,
+  infant_mortality_rate = glance(IMR_HDI_fit)$adj.r.squared,
+  number_maternal_deaths = glance(NMD_HDI_fit)$adj.r.squared,
+  maternal_mortality_rate_per_100000 = glance(MMR_HDI_fit)$adj.r.squared,
+  suicide_rate_per_100000 = glance(suicide_rate_HDI_fit)$adj.r.squared
+  ) %>%
+  pivot_longer(
+    cols = c(
+      healthy_life_expectancy_at_birth,
+      births_attended,
+      infant_mortality_rate,
+      number_maternal_deaths,
+      maternal_mortality_rate_per_100000,
+      suicide_rate_per_100000
+    ),
+    names_to = "variables",
+    values_to = "adj_r_squared"
+  )
+r_squared_HDI
+```
+
+
+
+## Adjusted R Squared of Regression Model of Variables vs HDI (Plot) {data-background-color="rgb(0, 34, 51)"}
+
+```{r adjusted r squared vs variables}
+
+ggplot(data = r_squared_HDI, aes(x = variables, y = adj_r_squared, fill = variables)) +
+  geom_bar(stat='identity') +
+  scale_fill_manual(values = c(
+    "healthy_life_expectancy_at_birth" = "#1b9e77",
+    "births_attended" = "#d95f02",
+    "infant_mortality_rate" = "#7570b3",
+    "number_maternal_deaths" = "#e7298a",
+    "maternal_mortality_rate_per_100000" = "#66a61e",
+    "suicide_rate_per_100000" = "#e6ab02"
+  ))+
+  scale_y_continuous(limits = c(0, 1))
+  
+```
+
 
 # Hello World
 
@@ -95,191 +291,6 @@ model <- lm(dist ~ speed, data = cars)
   tidy(model)
   glance(model)
 ```
-
-# Life Expectancy vs HDI
-```{r Life Expectancy vs HDI, echo = FALSE}
-life_expectancy_HDI_fit <- linear_reg() %>%
-	set_engine("lm") %>%
-	fit(healthy_life_expectancy_at_birth ~ human_development_index, data = dev_and_health)
-tidy(life_expectancy_HDI_fit)
-  
-glance(life_expectancy_HDI_fit)$adj.r.squared
-```
-## Life Expectancy vs HDI (Plot)
-$$\hat{Life Expectancy}_{i}=37.56912+36.04045\times HDI_{i}$$
-```{r Life Expectancy vs HDI plot, out.width="70%", fig.width=5, echo = FALSE}
-ggplot(data = dev_and_health, aes(x = human_development_index, y = healthy_life_expectancy_at_birth)) +
-  geom_point(alpha = 0.4) +
-  geom_smooth(method = "lm", se = FALSE) +
-  labs(
-    x = "HDI",
-    y = "Life Expectancy",
-    title = "Life Expectancy vs HDI")
-```
-
-
-# Births attended by skilled health personnel (%) vs HDI
-```{r Births attended by skilled health personnel rate vs HDI, echo = FALSE}
-births_attended_HDI_fit <- linear_reg() %>%
-	set_engine("lm") %>%
-	fit(births_attended ~ human_development_index, data = dev_and_health)
-tidy(births_attended_HDI_fit)
-
-glance(births_attended_HDI_fit)$adj.r.squared
-```
-
-## Births attended by skilled health personnel (%) vs HDI (Plot)
-$$\hat{health personnel}_{i}=24.32723+90.22275\times HDI_{i}$$
-```{r Births attended by skilled health personnel rate vs HDI (Plot), out.width="60%", fig.width=5, echo = FALSE}
-ggplot(data = dev_and_health, aes(x = human_development_index, y = births_attended)) +
-  geom_point(alpha = 0.4) +
-  geom_smooth(method = "lm", se = FALSE) +
-  coord_cartesian(ylim = c(0, 100)) +
-  labs(
-    x = "HDI",
-    y = "Births attended by skilled health personnel (%)")
-```
-
-# Infant Mortality Rate vs HDI
-```{r Infant Mortality Rate vs HDI, echo = FALSE}
-IMR_HDI_fit <- linear_reg() %>%
-	set_engine("lm") %>%
-	fit(infant_mortality_rate ~ human_development_index, data = dev_and_health)
-tidy(IMR_HDI_fit)
-
-glance(IMR_HDI_fit)$adj.r.squared
-```
-
-## Infant Mortality Rate vs HDI (Plot)
-$$\hat{Infant Mortality Rate}_{i}=102.668-114.240\times HDI_{i}$$
-
-```{r Infant Mortality Rate vs HDI (Plot), out.width="70%", fig.width=5, echo = FALSE}
-ggplot(data = dev_and_health, aes(x = human_development_index, y = infant_mortality_rate)) +
-  geom_point(alpha = 0.4) +
-  geom_smooth(method = "lm", se = FALSE) +
-  coord_cartesian(ylim = c(0, 100)) +
-  labs(
-    x = "HDI",
-    y = "Infant Mortality Rate")
-```
-
-# Number Maternal Deaths vs HDI
-```{r Number Maternal Deaths vs HDI, echo = FALSE}
-NMD_HDI_fit <- linear_reg() %>%
-	set_engine("lm") %>%
-	fit(number_maternal_deaths ~ human_development_index, data = dev_and_health)
-tidy(NMD_HDI_fit)
-
-glance(NMD_HDI_fit)$adj.r.squared
-```
-
-## Number Maternal Deaths vs HDI (Plot)
-$$\hat{Number Maternal Deaths}_{i}=9144.853-10693.198\times HDI_{i}$$
-
-```{r Number Maternal Deaths vs HDI (Plot), out.width="70%", fig.width=5, echo = FALSE}
-ggplot(data = dev_and_health, aes(x = human_development_index, y = number_maternal_deaths)) +
-  geom_point(alpha = 0.4) +
-  geom_smooth(method = "lm", se = FALSE) +
-  labs(
-    x = "HDI",
-    y = "Number Maternal Deaths")
-```
-
-# Maternal Mortality Rate Per 100000 vs HDI
-```{r Maternal Mortality Rate Per 100000 vs HDI, echo = FALSE}
-MMR_HDI_fit <- linear_reg() %>%
-	set_engine("lm") %>%
-	fit(maternal_mortality_rate_per_100000 ~ human_development_index, data = dev_and_health)
-tidy(MMR_HDI_fit)
-
-glance(MMR_HDI_fit)$adj.r.squared
-```
-
-## Maternal Mortality Rate Per 100000 vs HDI (Plot)
-$$\hat{Maternal Mortality Rate Per 100000}_{i}=1027.427-1221.303\times HDI_{i}$$
-
-```{r Maternal Mortality Rate Per 100000 vs HDI (Plot), out.width="60%", fig.width=5, echo = FALSE}
-ggplot(data = dev_and_health, aes(x = human_development_index, y = maternal_mortality_rate_per_100000)) +
-  geom_point(alpha = 0.4) +
-  geom_smooth(method = "lm", se = FALSE) +
-  labs(
-    x = "HDI",
-    y = "Maternal Mortality Rate Per 100000")
-```
-
-# Suicide Rate Per 100000 vs HDI
-```{r Suicide Rate Per 100000 vs HDI, echo = FALSE}
-suicide_rate_HDI_fit <- linear_reg() %>%
-	set_engine("lm") %>%
-	fit(suicide_rate_per_100000 ~ human_development_index, data = dev_and_health)
-tidy(suicide_rate_HDI_fit)
-
-glance(suicide_rate_HDI_fit)$adj.r.squared
-```
-
-
-## Suicide Rate Per 100000 vs HDI (Plot)
-$$\hat{Suicide Rate Per 100000}_{i}=62.91512-59.10957\times HDI_{i}$$
-
-```{r Suicide Rate Per 100000 vs HDI (Plot), out.width="70%", fig.width=5, echo = FALSE}
-ggplot(data = dev_and_health, aes(x = human_development_index, y = suicide_rate_per_100000)) +
-  geom_point(alpha = 0.4) +
-  geom_smooth(method = "lm", se = FALSE) +
-  labs(
-    x = "HDI",
-    y = "Suicide Rate Per 100000")
-```
-
-
-
-
-# Adjusted R Squared of Regression Model of Variables vs HDI 
-
-```{r r_squared_HDI}
-r_squared_HDI <- data.table(
-  healthy_life_expectancy_at_birth = glance(life_expectancy_HDI_fit)$adj.r.squared,
-  births_attended = glance(births_attended_HDI_fit)$adj.r.squared,
-  infant_mortality_rate = glance(IMR_HDI_fit)$adj.r.squared,
-  number_maternal_deaths = glance(NMD_HDI_fit)$adj.r.squared,
-  maternal_mortality_rate_per_100000 = glance(MMR_HDI_fit)$adj.r.squared,
-  suicide_rate_per_100000 = glance(suicide_rate_HDI_fit)$adj.r.squared
-  ) %>%
-  pivot_longer(
-    cols = c(
-      healthy_life_expectancy_at_birth,
-      births_attended,
-      infant_mortality_rate,
-      number_maternal_deaths,
-      maternal_mortality_rate_per_100000,
-      suicide_rate_per_100000
-    ),
-    names_to = "variables",
-    values_to = "adj_r_squared"
-  )
-r_squared_HDI
-```
-
-
-
-## Adjusted R Squared of Regression Model of Variables vs HDI (Plot)
-
-```{r adjusted r squared vs variables}
-
-ggplot(data = r_squared_HDI, aes(x = variables, y = adj_r_squared, fill = variables)) +
-  geom_bar(stat='identity') +
-  scale_fill_manual(values = c(
-    "healthy_life_expectancy_at_birth" = "#1b9e77",
-    "births_attended" = "#d95f02",
-    "infant_mortality_rate" = "#7570b3",
-    "number_maternal_deaths" = "#e7298a",
-    "maternal_mortality_rate_per_100000" = "#66a61e",
-    "suicide_rate_per_100000" = "#e6ab02"
-  ))+
-  scale_y_continuous(limits = c(0, 1))
-  
-```
-
-
 
 
 
