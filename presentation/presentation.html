@@ -311,23 +311,6 @@
 </section>
 <section id="adjusted-r-squared-of-regression-model-of-variables-vs-hdi-plot" class="slide level2" data-background-color="rgb(0, 34, 51)">
 <h2 data-background-color="rgb(0, 34, 51)">Adjusted R Squared of Regression Model of Variables vs HDI (Plot)</h2>
-<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> r_squared_HDI, <span class="fu">aes</span>(<span class="at">y =</span> variables, <span class="at">x =</span> adj_r_squared, <span class="at">fill =</span> variables)) <span class="sc">+</span></span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat=</span><span class="st">&#39;identity&#39;</span>) <span class="sc">+</span></span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(</span>
-<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;healthy_life_expectancy_at_birth&quot;</span> <span class="ot">=</span> <span class="st">&quot;#1b9e77&quot;</span>,</span>
-<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;births_attended&quot;</span> <span class="ot">=</span> <span class="st">&quot;#d95f02&quot;</span>,</span>
-<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;infant_mortality_rate&quot;</span> <span class="ot">=</span> <span class="st">&quot;#7570b3&quot;</span>,</span>
-<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;number_maternal_deaths&quot;</span> <span class="ot">=</span> <span class="st">&quot;#e7298a&quot;</span>,</span>
-<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;maternal_mortality_rate_per_100000&quot;</span> <span class="ot">=</span> <span class="st">&quot;#66a61e&quot;</span>,</span>
-<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;suicide_rate_per_100000&quot;</span> <span class="ot">=</span> <span class="st">&quot;#e6ab02&quot;</span></span>
-<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>  ))<span class="sc">+</span></span>
-<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>)) <span class="sc">+</span> </span>
-<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;Health &amp; Quality of Life Measurmenets&quot;</span>,</span>
-<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">&quot;Adjusted R Squared&quot;</span>,</span>
-<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;Adjusted R Squared Values&quot;</span>,</span>
-<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">&quot;by Health &amp; Quality of Life Measurements&quot;</span>,</span>
-<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">&quot;Measurements&quot;</span>)</span></code></pre></div>
 <p><img src="presentation_files/figure-revealjs/adjusted%20r%20squared%20vs%20variables-1.png" width="80%" /></p>
 </section></section>
 <section id="adjusted-r-squared-interpretation" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">

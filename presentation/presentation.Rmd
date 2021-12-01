@@ -219,7 +219,7 @@ r_squared_HDI
 
 ## Adjusted R Squared of Regression Model of Variables vs HDI (Plot) {data-background-color="rgb(0, 34, 51)"}
 
-```{r adjusted r squared vs variables}
+```{r adjusted r squared vs variables, echo = FALSE}
 
 ggplot(data = r_squared_HDI, aes(y = variables, x = adj_r_squared, fill = variables)) +
   geom_bar(stat='identity') +
@@ -231,7 +231,8 @@ ggplot(data = r_squared_HDI, aes(y = variables, x = adj_r_squared, fill = variab
     "maternal_mortality_rate_per_100000" = "#66a61e",
     "suicide_rate_per_100000" = "#e6ab02"
   ))+
-  scale_x_continuous(limits = c(0, 1)) + 
+  scale_x_continuous(limits = c(0, 1)) +
+  theme(axis.text.x = element_text(size=6)) +
   labs(
     y = "Health & Quality of Life Measurmenets",
     x = "Adjusted R Squared",
