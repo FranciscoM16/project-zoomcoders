@@ -25,7 +25,7 @@ We can overall say that our hypothesis was backed up by our results. However, th
 
 ## Presentation
 
-Our presentation can be found [here](presentation/presentation.html).
+Our presentation can be found [https://media.ed.ac.uk/media/zoomcoders_project_IDS/1_5trwa9a3](presentation/presentation.html).
 
 ## Data 
 
