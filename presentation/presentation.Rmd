@@ -188,8 +188,10 @@ ggplot(data = dev_and_health, aes(x = human_development_index, y = suicide_rate_
 # Initial analysis {data-background-color="rgb(0, 34, 51)"}
 - From the initial regression fits, we can see that our hypothesis was correct
   - We generally saw a linear relationship between our measurements and HDI, seeing positive linear relationships with measurements such as healthy life expectancy, births attended by skilled health personnel, and negative linear relationships with measurements such as suicide rate, number of maternal deaths, infant mortality rate, and maternal mortality rate
-  - However, the strength of these relationships varied, as we saw that the r squared values of some of these relationships was as high as 0.78, and some as low as 0.06.
-    - For the next part of our analysis we want to see how the r squared values of these measurements compare to each other.
+  
+# Initial analysis {data-background-color="rgb(0, 34, 51)"}
+- However, the strength of these relationships varied, as we saw that the r squared values of some of these relationships was as high as 0.78, and some as low as 0.06.
+  - For the next part of our analysis we want to see how the r squared values of these measurements compare to each other.
 
 # Adjusted R Squared of Regression Model of Variables vs HDI {data-background-color="rgb(0, 34, 51)"}
 
@@ -245,7 +247,11 @@ ggplot(data = r_squared_HDI, aes(y = variables, x = adj_r_squared, fill = variab
 # Adjusted R Squared Interpretation {data-background-color="rgb(0, 34, 51)"}
 - We can see that variables such as healthy life expectancy at birth and infant mortality rates had the highest adjusted r^2 values.
   - We expect more developed countries to have better medical facilities, therefore have longer healthy life expectancies (strong positive relationship), and have lower rates of infant mortality (strong negative relationship)
+
+# Adjusted R Squared Interpretation {data-background-color="rgb(0, 34, 51)"}  
 - However, we also see that certain measurements such as maternal deaths and suicide rate have relatively low r squared values.
+
+## Adjusted R Squared Interpretation {data-background-color="rgb(0, 34, 51)"}
   - For maternal deaths, this can be explained by the fact that for HDI values higher than 0.8, number of maternal deaths was almost zero, hence not fitting a linear model that well
   - For suicide rate, we can infer that although medical facilities and technology may be quite high, this does not necessarily relate to high levels of mental health.
 
@@ -253,6 +259,8 @@ ggplot(data = r_squared_HDI, aes(y = variables, x = adj_r_squared, fill = variab
 - We can overall say that our hypothesis was backed up by our results
   - However, the spread was much higher than expected
     - Highest r squared value for any measurement was 0.78, indicating that there isn't such a straightforward linear relationship between a measurement and HDI
+    
+# Conclusion {data-background-color="rgb(0, 34, 51)"}
 - In addition we saw that measurements such as suicide rate don't necessarily have a strong relationship with HDI
   - This could be caused by a multitude of other factors, that may be more present in countries that are more developed
     - Example: stress caused by work, school, etc.

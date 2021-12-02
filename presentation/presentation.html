@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="Zoomcoders   Alex Milchev, Francisco Mendonca, Jiaqi Gao and Yingying Xiao" />
-  <meta name="dcterms.date" content="2021-12-01" />
+  <meta name="dcterms.date" content="2021-12-02" />
   <title>Economic Development Effect on Quality of Life</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -74,7 +74,7 @@
   <h1 class="subtitle"><font size='6'>By countries, in 2019 </font></h1>
   <h2 class="author"><font size='8'>Zoomcoders <br> Alex Milchev, Francisco Mendonca, Jiaqi Gao and Yingying Xiao</font></h2>
   <h3 class="institute"><font size='10'>University of Edinburgh</font></h2>
-  <h3 class="date"><font size = '6'>2021-12-01</font></h3>
+  <h3 class="date"><font size = '6'>2021-12-02</font></h3>
 </section>
 
 <section id="goal-to-investigate-how-the-development-of-a-country-can-impact-the-quality-of-life-of-its-citizens" class="slide level2" data-background-color="rgb(0, 34, 51)">
@@ -204,10 +204,16 @@
 <li>From the initial regression fits, we can see that our hypothesis was correct
 <ul>
 <li>We generally saw a linear relationship between our measurements and HDI, seeing positive linear relationships with measurements such as healthy life expectancy, births attended by skilled health personnel, and negative linear relationships with measurements such as suicide rate, number of maternal deaths, infant mortality rate, and maternal mortality rate</li>
+</ul></li>
+</ul>
+</section>
+
+<section id="initial-analysis-1" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
+<h1 data-background-color="rgb(0, 34, 51)">Initial analysis</h1>
+<ul>
 <li>However, the strength of these relationships varied, as we saw that the r squared values of some of these relationships was as high as 0.78, and some as low as 0.06.
 <ul>
 <li>For the next part of our analysis we want to see how the r squared values of these measurements compare to each other.</li>
-</ul></li>
 </ul></li>
 </ul>
 </section>
@@ -236,14 +242,23 @@
 <ul>
 <li>We expect more developed countries to have better medical facilities, therefore have longer healthy life expectancies (strong positive relationship), and have lower rates of infant mortality (strong negative relationship)</li>
 </ul></li>
-<li>However, we also see that certain measurements such as maternal deaths and suicide rate have relatively low r squared values.
-<ul>
-<li>For maternal deaths, this can be explained by the fact that for HDI values higher than 0.8, number of maternal deaths was almost zero, hence not fitting a linear model that well</li>
-<li>For suicide rate, we can infer that although medical facilities and technology may be quite high, this does not necessarily relate to high levels of mental health.</li>
-</ul></li>
 </ul>
 </section>
 
+<section>
+<section id="adjusted-r-squared-interpretation-1" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
+<h1 data-background-color="rgb(0, 34, 51)">Adjusted R Squared Interpretation</h1>
+<ul>
+<li>However, we also see that certain measurements such as maternal deaths and suicide rate have relatively low r squared values.</li>
+</ul>
+</section>
+<section id="adjusted-r-squared-interpretation-2" class="slide level2" data-background-color="rgb(0, 34, 51)">
+<h2 data-background-color="rgb(0, 34, 51)">Adjusted R Squared Interpretation</h2>
+<ul>
+<li>For maternal deaths, this can be explained by the fact that for HDI values higher than 0.8, number of maternal deaths was almost zero, hence not fitting a linear model that well</li>
+<li>For suicide rate, we can infer that although medical facilities and technology may be quite high, this does not necessarily relate to high levels of mental health.</li>
+</ul>
+</section></section>
 <section id="conclusion" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
 <h1 data-background-color="rgb(0, 34, 51)">Conclusion</h1>
 <ul>
@@ -254,6 +269,12 @@
 <li>Highest r squared value for any measurement was 0.78, indicating that there isn’t such a straightforward linear relationship between a measurement and HDI</li>
 </ul></li>
 </ul></li>
+</ul>
+</section>
+
+<section id="conclusion-1" class="title-slide slide level1" data-background-color="rgb(0, 34, 51)">
+<h1 data-background-color="rgb(0, 34, 51)">Conclusion</h1>
+<ul>
 <li>In addition we saw that measurements such as suicide rate don’t necessarily have a strong relationship with HDI
 <ul>
 <li>This could be caused by a multitude of other factors, that may be more present in countries that are more developed
