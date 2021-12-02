@@ -93,7 +93,21 @@ Our presentation can be found [here](presentation/presentation.html).
 
 ## Data
 
-Data Reference List
+-   [HDI by country - 2019](http://hdr.undp.org/en/indicators/137506)
+-   [Population living below poverty line (%) by country -
+    2019](http://hdr.undp.org/en/indicators/39006)
+-   [Current Health Expenditure (% of GDP) by country -
+    2019](http://hdr.undp.org/en/indicators/18180)
+-   [Maternity Mortality Ratio by country -
+    2019](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births))
+-   [Suicide Rates by country -
+    2019](https://www.who.int/data/gho/data/themes/mental-health/suicide-rates)
+-   [Births attended by skilled personnel (%) by country -
+    2019](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/births-attended-by-skilled-health-personnel-(-))
+-   [Healthy Life Expectancy by country -
+    2019](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/gho-ghe-hale-healthy-life-expectancy-at-birth)
+
+## References
 
 Human Development Reports, 2021, *Human Development Index (HDI)*,
 electronic dataset, United Nations Development Programme, viewed 12
@@ -132,8 +146,3 @@ The Global Health Observatory, 2021, *Healthy life expectancy (HALE) at
 birth (years)*, electronic dataset, World Health Organization, viewed 12
 November 2021,
 <https://www.who.int/data/gho/data/indicators/indicator-details/GHO/gho-ghe-hale-healthy-life-expectancy-at-birth>
-
-## References
-
-List any references here. You should, at a minimum, list your data
-source.
