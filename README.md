@@ -42,7 +42,7 @@ infant mortality rate, we saw a negative linear relationship, with an
 With this process repeated, we saw a negative relationship for number of
 maternal deaths and maternal mortality ratio, as well as for suicide
 rates. However, the R Squared value for Suicide rates was very low at
-0.06, indicating that a linear fit was not necessarily acceptable.
+0.02, indicating that a linear fit was not necessarily acceptable.
 
 From the initial regression fits, we could see that our hypothesis was
 mostly correct. We generally saw a linear relationship between our
@@ -52,7 +52,7 @@ health personnel, and negative linear relationships with measurements
 such as suicide rate, number of maternal deaths, infant mortality rate,
 and maternal mortality rate. However, the strength of these
 relationships varied, as we saw that the r squared values of some of
-these relationships was as high as 0.78, and some as low as 0.06. For
+these relationships was as high as 0.78, and some as low as 0.02. For
 the next part of our analysis we want to see how the r squared values of
 these measurements compare to each other. This would give us a better
 understanding of what kinds of health measurements have strong
