@@ -190,7 +190,7 @@ ggplot(data = dev_and_health, aes(x = human_development_index, y = suicide_rate_
   - We generally saw a linear relationship between our measurements and HDI, seeing positive linear relationships with measurements such as healthy life expectancy, births attended by skilled health personnel, and negative linear relationships with measurements such as suicide rate, number of maternal deaths, infant mortality rate, and maternal mortality rate
   
 # Initial analysis {data-background-color="rgb(0, 34, 51)"}
-- However, the strength of these relationships varied, as we saw that the r squared values of some of these relationships was as high as 0.78, and some as low as 0.06.
+- However, the strength of these relationships varied, as we saw that the r squared values of some of these relationships was as high as 0.78, and some as low as 0.02.
   - For the next part of our analysis we want to see how the r squared values of these measurements compare to each other.
 
 # Adjusted R Squared of Regression Model of Variables vs HDI {data-background-color="rgb(0, 34, 51)"}
